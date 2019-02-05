@@ -38,6 +38,7 @@
                 </ul>
             </li>
 			<li class=""><a href="aboutus.php"><i class="fa fa-bars" aria-hidden="true"></i> <span>About Us</span></a></li>
+			<li class=""><a href="instructors.php"><i class="fa fa-bars" aria-hidden="true"></i> <span>Instuctors</span></a></li>
             <li class="treeview">
                 <a href="#">
                     <i class="fa fa-edit"></i> <span>Forms</span>

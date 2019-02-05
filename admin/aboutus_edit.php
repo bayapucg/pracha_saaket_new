@@ -29,7 +29,7 @@
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
-                    <form role="form" action="top_nav.php" id="formValidate" name="formValidate">
+                    <form role="form" action="aboutus.php" id="formValidate" name="formValidate">
                         <div class="box-body">
 						<div class="row">
 						<div class="col-lg-6">
@@ -49,19 +49,19 @@
 						<div class="col-lg-6">
                             <div class="form-group">
                                 <label for="exampleInputbanner">Link Name1</label>
-                             <input type="text" class="form-control" id="exampleInputEmail1" name="text_linkname"placeholder="Enter linkName1">
+                             <input type="text" class="form-control" id="exampleInputEmail1" name="text_linkname"placeholder="Enter linkName1" value="home">
 								</div>
 								<div class="form-group">
-                                <input type="text" class="form-control" id="exampleInputemailid" name="text_link" placeholder="Enter Link">
+                                <input type="text" class="form-control" id="exampleInputemailid" name="text_link" placeholder="Enter Link" value="psaaket/admin.home.php">
                             </div>
                             </div>
 							<div class="col-lg-6">
                             <div class="form-group">
                                 <label for="exampleInputbanner">Link Name2</label>
-                             <input type="text" class="form-control" id="exampleInputEmail1" name="text_linkname"placeholder="Enter linkName2">
+                             <input type="text" class="form-control" id="exampleInputEmail1" name="text_linkname"placeholder="Enter linkName2" value="aboutus">
 								</div>
 								<div class="form-group">
-                                <input type="text" class="form-control" id="exampleInputemailid" name="text_link" placeholder="Enter Link">
+                                <input type="text" class="form-control" id="exampleInputemailid" name="text_link" placeholder="Enter Link" value="psaaket/admi.php">
                             </div>
                             </div>
 							</div>
@@ -69,13 +69,13 @@
 						<div class="col-lg-6">
 							<div class="form-group">
                                 <label for="exampleInputheading">Heading</label>
-                                <input type="text" class="form-control" id="exampleInputemailid" name="text_heading" placeholder="Enter Heading">
+                                <input type="text" class="form-control" id="exampleInputemailid" name="text_heading" placeholder="Enter Heading" value="aboutus">
                             </div>
 							</div>
 							<div class="col-lg-6">
 							<div class="form-group">
                                 <label for="exampleInputparagraph">Paragraph</label>
-                                <input type="text" class="form-control" id="exampleInputemailid" name="paragraph" placeholder="Enter Paragraph">
+                                <input type="text" class="form-control" id="exampleInputemailid" name="paragraph" placeholder="Enter Paragraph" value="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book">
                             </div>
 							</div>
 							</div>
@@ -87,28 +87,28 @@
 						<div class="col-lg-4">
 							<div class="form-group">
                                 <label for="exampleInputheading">Why Choose Us?</label>
-                                <input type="text" class="form-control" id="exampleInputemailid" name="text_heading" placeholder="Enter Heading">
+                                <input type="text" class="form-control" id="exampleInputemailid" name="text_heading" placeholder="Enter Heading" value="aboutus">
                             </div>
 							<div class="form-group">
-                                <input type="text" class="form-control" id="exampleInputemailid" name="text_content" placeholder="Enter Content">
+                                <input type="text" class="form-control" id="exampleInputemailid" name="text_content" placeholder="Enter Content" value="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book">
                             </div>
 							</div>
 							<div class="col-lg-4">
 							<div class="form-group">
                                 <label for="exampleInputheading">Our Vision</label>
-                                <input type="text" class="form-control" id="exampleInputemailid" name="text_heading" placeholder="Enter Heading">
+                                <input type="text" class="form-control" id="exampleInputemailid" name="text_heading" placeholder="Enter Heading" value="vision">
                             </div>
 							<div class="form-group">
-                                <input type="text" class="form-control" id="exampleInputemailid" name="text_content" placeholder="Enter Content">
+                                <input type="text" class="form-control" id="exampleInputemailid" name="text_content" placeholder="Enter Content" value="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book">
                             </div>
 							</div>
 							<div class="col-lg-4">
 							<div class="form-group">
                                 <label for="exampleInputheading">Our Mission</label>
-                                <input type="text" class="form-control" id="exampleInputemailid" name="text_heading" placeholder="Enter Heading">
+                                <input type="text" class="form-control" id="exampleInputemailid" name="text_heading" placeholder="Enter Heading" value="mission">
                             </div>
 							<div class="form-group">
-                                <input type="text" class="form-control" id="exampleInputemailid" name="text_content" placeholder="Enter Content">
+                                <input type="text" class="form-control" id="exampleInputemailid" name="text_content" placeholder="Enter Content" value="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book">
                             </div>
 							</div>
 							</div>
