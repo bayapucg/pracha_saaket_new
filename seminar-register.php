@@ -29,7 +29,7 @@
     <section id="contact-page" class="pt-90 pb-120 gray-bg">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 mx-auto">
                     <div class="contact-from mt-30">
                         <div class="section-title">
                             <h5>Personal Info</h5>
@@ -58,29 +58,47 @@
                                             <input name="address" type="text" placeholder="Address">
                                         </div> <!-- singel form -->
                                     </div>
-                                    <div class="col-md-12">
+                                    <div class="col-md-6">
                                         <div class="singel-form form-group">
-                                            <input name="city" type="text" placeholder="City">
+                                            <select name="city" class="form-control">
+                                                <option value="" selected disabled>Select City</option>
+                                                <option value="1">City 1</option>
+                                                <option value="2">City 2</option>
+                                                <option value="3">City 3</option>
+                                                <option value="4">City 4</option>
+                                            </select>
                                         </div> <!-- singel form -->
                                     </div>
-                                    <div class="col-md-12">
+                                    <div class="col-md-6">
                                         <div class="singel-form form-group">
-                                            <input name="state" type="text" placeholder="State">
+                                            <select name="state" class="form-control">
+                                                <option value="" selected disabled>Select State</option>
+                                                <option value="1">State 1</option>
+                                                <option value="2">State 2</option>
+                                                <option value="3">State 3</option>
+                                                <option value="4">State 4</option>
+                                            </select>
                                         </div> <!-- singel form -->
                                     </div>
-                                    <div class="col-md-12">
+                                    <div class="col-md-6">
                                         <div class="singel-form form-group">
-                                            <input name="country" type="text" placeholder="Country">
+                                            <select name="country" class="form-control">
+                                                <option value="" selected disabled>Select Country</option>
+                                                <option value="1">County 1</option>
+                                                <option value="2">County 2</option>
+                                                <option value="3">County 3</option>
+                                                <option value="4">County 4</option>
+                                            </select>
                                         </div> <!-- singel form -->
                                     </div>
-                                    <div class="col-md-12">
+                                    <div class="col-md-6">
                                         <div class="singel-form form-group">
                                             <input name="zipcode" type="text" placeholder="Zipcode">
                                         </div> <!-- singel form -->
                                     </div>
                                     <div class="col-md-12">
                                         <div class="singel-form">
-                                            <button type="submit" class="main-btn">Submit</button>
+                                            <button type="submit" class="main-btn">Proceed to payment</button>
                                         </div> <!-- singel form -->
                                     </div> 
                                 </div> <!-- row -->

@@ -4212,6 +4212,17 @@ p.form-message.error {
     margin-right: 10px;
 }
 
+.google-icon{
+    background-image: url(../img/google-logo.png);
+    height: 15px;
+    width: 15px;
+    background-size: cover;
+    position: relative;
+    padding-top: 0px;
+    top: 2px;
+    margin-right: 10px;
+}
+
 .break {
     position: relative;
     margin: 30px 20%;
