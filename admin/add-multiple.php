@@ -109,7 +109,7 @@
 
         $("table.table-list").on("click", ".ibtnDel", function(event) {
             $(this).closest("tr").remove();
-            counter -= 1
+            counter -= 1;
         });
     });
 </script>
