@@ -131,7 +131,7 @@
                     <form action="#" method="post">
                         <div class="via-login">
                             <a href="#" class="via-fb"><i class="fa fa-facebook-f"></i>Continue with facebook</a>
-                            <a href="#" class="via-google"><i class="fa fa-google"></i>Continue with google</a>
+                            <a href="#" class="via-google"><span class="google-icon"></span>Continue with google</a>
                         </div>
                         <div class="break"><span>or</span></div>
                         <div class="form-group">

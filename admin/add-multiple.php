@@ -20,9 +20,13 @@
         <div class="row">
 
             <div class="col-md-12">
-                <div class="box box-primary">
+
+                <div class="box box-success">
+                    <div class="box-header with-border">
+                        <h5 class="box-title">Add Contacts</h5>
+                    </div>
                     <!-- form start -->
-                    <form id="addMoreForm" name="addMoreForm" action="" method="">
+                    <form id="" name="" action="" method="">
                         <div class="box-body">
                             <div class="col-md-12">
 
@@ -40,16 +44,16 @@
                                         <tbody>
                                             <tr>
                                                 <td>
-                                                    <input type="text" class="form-control" name="text0" placeholder="Text"/>
+                                                    <input type="text" class="form-control" name="btext" placeholder="Text"/>
                                                 </td>
                                                 <td>
-                                                    <input type="email" class="form-control" name="email0" placeholder="Email"/>
+                                                    <input type="email" class="form-control" name="bemail" placeholder="Email"/>
                                                 </td>
                                                 <td>
-                                                    <input type="number" class="form-control" name="number0" placeholder="Number"/>
+                                                    <input type="number" class="form-control" name="bnumber" placeholder="Number"/>
                                                 </td>
                                                 <td>
-                                                    <select name="select0" class="form-control">
+                                                    <select name="bselect" class="form-control">
                                                         <option value="" selected disabled>Select</option>
                                                         <option value="1">Option 1</option>
                                                         <option value="2">Option 2</option>
@@ -59,15 +63,12 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                    <a href="contacts_list.php" class="btn btn-info btn-md mr-10">
-                                        <i class="fa fa-arrow-left mr-5"></i>Back
-                                    </a>
-                                    <button type="button" class="btn btn-md" id="addContactRow">Add Row</button>
+                                    <button type="button" class="btn btn-md" id="addRow">Add Row</button>
 
                                 </div>
                                 <hr class="mb-10">
                                 <div class="text-center">
-                                    <button type="submit" class="btn btn-md btn-primary btn-flat">Submit</button>
+                                    <button type="submit" class="btn btn-md btn-success btn-flat">Add</button>
                                 </div>
                             </div>
                         </div>
@@ -87,21 +88,22 @@
 
 <script>
     $(document).ready(function() {
-        var counter = 1;
+        var counter = 0;
 
-        $("#addMoreForm").on("click", function() {
+        $("#addRow").on("click", function() {
             var newRow = $("<tr>");
             var cols = "";
-            
-            cols += '<td><input type="text" class="form-control" placeholder="Text" name="text' + counter + '"/></td>';
-            
-            cols += '<td><input type="email" class="form-control" placeholder="Email" name="email' + counter + '"/></td>';
-            
-            cols += '<td><input type="number" class="form-control" placeholder="Phone Number" name="number' + counter + '"/></td>';
-            
-            cols += '<td><select class="form-control" name="select' + counter + '"><option value="0" selected disabled>Select</option><option value="1">Option 1</option><option value="2">Option 2</option></select></td>';
+
+            cols += '<td><input type="text" class="form-control" placeholder="Text" name="btext' + counter + '"/></td>';
+
+            cols += '<td><input type="email" class="form-control" placeholder="Email" name="bemail' + counter + '"/></td>';
+
+            cols += '<td><input type="number" class="form-control" placeholder="Phone Number" name="bnumber' + counter + '"/></td>';
+
+            cols += '<td><select class="form-control" name="bselect' + counter + '"><option value="0" selected disabled>Select</option><option value="1">Option 1</option><option value="2">Option 2</option></select></td>';
 
             cols += '<td><button type="button" class="ibtnDel btn btn-md btn-danger"><i class="fa fa-trash"></i></button></td>';
+            
             newRow.append(cols);
             $("table.table-list").append(newRow);
             counter++;
