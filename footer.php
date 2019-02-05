@@ -116,6 +116,7 @@
     <!--====== BACK TO TP PART ENDS ======-->
    
     <!--====== LOGIN MODAL PART START ======-->
+
     <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modalLabel1"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -128,7 +129,7 @@
                 </div>
                 <div class="modal-body">
                     <form action="#" method="post">
-                        <div class="ei-accept">
+                        <div class="via-login">
                             <a href="#" class="via-fb"><i class="fa fa-facebook-f"></i>Continue with facebook</a>
                             <a href="#" class="via-google"><i class="fa fa-google"></i>Continue with google</a>
                         </div>
@@ -162,9 +163,11 @@
             </div>
         </div>
     </div>
+
     <!--====== LOGIN MODAL PART END ======-->
     
     <!--====== REGISTER MODAL PART START ======-->
+
     <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modalLabel2"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -177,6 +180,11 @@
                 </div>
                 <div class="modal-body modal-bg">
                     <form action="#" method="post">
+                        <div class="via-login">
+                            <a href="#" class="via-fb"><i class="fa fa-facebook-f"></i>Continue with facebook</a>
+                            <a href="#" class="via-google"><i class="fa fa-google"></i>Continue with google</a>
+                        </div>
+                        <div class="break"><span>or</span></div>
                         <div class="form-group">
                             <label>Username</label>
                             <input type="text" class="form-control" placeholder="" name="name" id="">
@@ -212,9 +220,11 @@
             </div>
         </div>
     </div>
+
     <!--====== REGISTER MODAL PART START ======-->
     
     <!--====== FORGOT PASSWORD MODAL PART START ======-->
+
     <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modalLabel3"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -241,6 +251,7 @@
             </div>
         </div>
     </div>
+
     <!--====== FORGOT PASSWORD MODAL PART START ======-->
     
     <!--====== jquery js ======-->

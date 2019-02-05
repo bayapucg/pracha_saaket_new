@@ -407,7 +407,7 @@
                                 </ul>
                                 <div class="price-button pt-10">
                                     <span>Price : <b>₹ 2500</b></span>
-                                    <a href="#" class="main-btn">Enroll Now</a>
+                                    <a href="course-enroll.php" class="main-btn">Enroll Now</a>
                                 </div>
                             </div> <!-- course features -->
                         </div>
