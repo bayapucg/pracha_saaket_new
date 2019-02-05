@@ -4161,6 +4161,63 @@ p.form-message.error {
     background:  rgba(61, 61, 62, 0.55);
 }
 
+.via-fb,
+.via-google{
+    display: inline-block;
+    width: 47%;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid #07294d;
+    padding: 0px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 40px;
+    border-radius: 5px;
+    color: #ffc600;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    background-color: #07294d;
+}
+.via-fb{
+    margin-right: 4%;
+    background-color: #3b5998;
+    color: #fff;
+    border: 1px solid #3b5998;
+}
 
+.via-fb:hover{
+    background-color: #162d77;
+    color: #fff;
+}
 
+.via-fb i,
+.via-google i{
+    margin-right: 10px;
+}
 
+.break {
+    position: relative;
+    margin: 30px 20%;
+    color: #57617a;
+    border-bottom: 1px solid #ccc;
+    height: .5em;
+}
+
+.break span {
+    position: relative;
+    top: -50%;
+    background-color: #fff;
+    padding: 0 14px;
+    left: 50%;
+    transform: translateX(-50%);
+}

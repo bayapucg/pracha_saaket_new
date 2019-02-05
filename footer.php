@@ -28,16 +28,14 @@
                             <ul>
                                 <li><a href="index.php"><i class="fa fa-angle-right"></i>Home</a></li>
                                 <li><a href="about.php"><i class="fa fa-angle-right"></i>About us</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Courses</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>News</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Seminars</a></li>
+                                <li><a href="courses.php"><i class="fa fa-angle-right"></i>Courses</a></li>
+                                <li><a href="seminars.php"><i class="fa fa-angle-right"></i>Seminars</a></li>
                             </ul>
                             <ul>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Gallery</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Shop</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Teachers</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Support</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Contact</a></li>
+                                <li><a href="instructors.php"><i class="fa fa-angle-right"></i>Instructors</a></li>
+                                <li><a href="seminars.php"><i class="fa fa-angle-right"></i>Events</a></li>
+                                <li><a href="blog.php"><i class="fa fa-angle-right"></i>Blog</a></li>
+                                <li><a href="contact.php"><i class="fa fa-angle-right"></i>Contact</a></li>
                             </ul>
                         </div> <!-- footer link -->
                     </div>
@@ -50,8 +48,7 @@
                                 <li><a href="#"><i class="fa fa-angle-right"></i>FAQS</a></li>
                                 <li><a href="#"><i class="fa fa-angle-right"></i>Privacy</a></li>
                                 <li><a href="#"><i class="fa fa-angle-right"></i>Policy</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Support</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Documentation</a></li>
+                                <li><a href="contact.php"><i class="fa fa-angle-right"></i>Support</a></li>
                             </ul>
                         </div> <!-- support -->
                     </div>
@@ -118,7 +115,7 @@
     
     <!--====== BACK TO TP PART ENDS ======-->
    
-    <!-- Login -->
+    <!--====== LOGIN MODAL PART START ======-->
     <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modalLabel1"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -131,6 +128,11 @@
                 </div>
                 <div class="modal-body">
                     <form action="#" method="post">
+                        <div class="ei-accept">
+                            <a href="#" class="via-fb"><i class="fa fa-facebook-f"></i>Continue with facebook</a>
+                            <a href="#" class="via-google"><i class="fa fa-google"></i>Continue with google</a>
+                        </div>
+                        <div class="break"><span>or</span></div>
                         <div class="form-group">
                             <label>Username</label>
                             <input type="text" class="form-control" placeholder="" name="name" id="">
@@ -160,9 +162,9 @@
             </div>
         </div>
     </div>
-    <!-- //Login -->
+    <!--====== LOGIN MODAL PART END ======-->
     
-    <!-- Register -->
+    <!--====== REGISTER MODAL PART START ======-->
     <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modalLabel2"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -210,9 +212,9 @@
             </div>
         </div>
     </div>
-    <!-- // Register -->
+    <!--====== REGISTER MODAL PART START ======-->
     
-    <!-- Forgot Password -->
+    <!--====== FORGOT PASSWORD MODAL PART START ======-->
     <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modalLabel3"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -239,7 +241,7 @@
             </div>
         </div>
     </div>
-    <!-- //Forgot Password -->
+    <!--====== FORGOT PASSWORD MODAL PART START ======-->
     
     <!--====== jquery js ======-->
 	<script src="js/modernizr-3.6.0.min.js"></script>
