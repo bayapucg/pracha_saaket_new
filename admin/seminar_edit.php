@@ -6,11 +6,13 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Instuctors
+            Seminars
         </h1>
         <ol class="breadcrumb">
-            <li><a href="index.php"><i class="fa fa-dashboard"></i>Home</a></li>
-            <li class="active">Instuctors</li>
+            <li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="Courses.php">Seminars</a></li>
+            <li><a href="#">Edit</a></li>
+
         </ol>
     </section>
 
@@ -23,7 +25,7 @@
 			
 			<div class="box box-primary">
                     <div class="box-header with-border">
-                        <h1 class="box-title pull-left">Instuctors</h1>
+                        <h1 class="box-title pull-left">Seminars</h1>
                         <a href="instructors_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a>
                     </div>
                     <!-- /.box-header -->
@@ -40,7 +42,7 @@
 							<div class="col-lg-6">
                             <div class="form-group">
                                 <label for="exampleInputtitle">Title</label>
-                                <input type="text" class="form-control" id="exampleInputemailid" name="title" placeholder="Enter title">
+                                <input type="text" class="form-control" id="exampleInputemailid" name="title" placeholder="Enter title" value="Seminars">
                             </div> 
 							</div>
 							</div>
@@ -48,19 +50,19 @@
 						<div class="col-lg-6">
                             <div class="form-group">
                                 <label for="exampleInputbanner">Link Name1</label>
-                             <input type="text" class="form-control" id="exampleInputEmail1" name="text_linkname"placeholder="Enter linkName1">
+                             <input type="text" class="form-control" id="exampleInputEmail1" name="text_linkname"placeholder="Enter linkName1" value="home">
 								</div>
 								<div class="form-group">
-                                <input type="text" class="form-control" id="exampleInputemailid" name="text_link" placeholder="Enter Link">
+                                <input type="text" class="form-control" id="exampleInputemailid" name="text_link" placeholder="Enter Link" value="psaaket/admin/index.php">
                             </div>
                             </div>
 							<div class="col-lg-6">
                             <div class="form-group">
                                 <label for="exampleInputbanner">Link Name2</label>
-                             <input type="text" class="form-control" id="exampleInputEmail1" name="text_linkname"placeholder="Enter linkName2">
+                             <input type="text" class="form-control" id="exampleInputEmail1" name="text_linkname"placeholder="Enter linkName2" value="Seminars">
 								</div>
 								<div class="form-group">
-                                <input type="text" class="form-control" id="exampleInputemailid" name="text_link" placeholder="Enter Link">
+                                <input type="text" class="form-control" id="exampleInputemailid" name="text_link" placeholder="Enter Link" value="psaaket/admin/instructors.php">
                             </div>
                             </div>
 							</div>
@@ -68,15 +70,10 @@
 						<div class="col-lg-6">
 							<div class="form-group">
                                 <label for="exampleInputheading">Heading</label>
-                                <input type="text" class="form-control" id="exampleInputemailid" name="text_heading" placeholder="Enter Heading">
+                                <input type="text" class="form-control" id="exampleInputemailid" name="text_heading" placeholder="Enter Heading" value="Seminars">
                             </div>
 							</div>
-							<div class="col-lg-6">
-							<div class="form-group">
-                                <label for="exampleInputparagraph">Paragraph</label>
-                                <input type="text" class="form-control" id="exampleInputemailid" name="paragraph" placeholder="Enter Paragraph">
-                            </div>
-							</div>
+							
 							</div>
 						<form id="" name="" action="" method="">
                         <div class="box-body">
@@ -86,25 +83,39 @@
                                     <table id="myTable" class="table table-list">
                                         <thead>
                                             <tr>
-                                                <th>Instuctor Image</th>
+                                                <th>image</th>
+                                                <th>Rating</th>
+                                                <th>Course</th>
+												<th>Instuctor Image</th>
                                                 <th>Instuctor Name</th>
-                                                <th>Specification</th>
+                                                <th>Registered</th>
                                                 <!--<th>Action</th>-->
                                                 <th>&nbsp;</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
+                                             <tr>
                                                 <td>
                                                     <input type="file" class="form-control" name="bfile" placeholder="Enter Instuctor "/ >
                                                 </td>
                                                 <td>
-                                                    <input type="text" class="form-control" name="btext" placeholder="Enter Instuctor Name"/>
+                                                    <input type="date" class="form-control" name="btext" placeholder="Enter Rating"/>
                                                 </td>
                                                 <td>
-                                                    <input type="text" class="form-control" name="bspecification" placeholder="Enter Specification"/>
+                                                    <input type="text" class="form-control" name="bspecification" placeholder="Enter Title"/>
                                                 </td>
-                                               
+                                               <td>
+                                                    <input type="time" class="form-control" name="bfile" placeholder="Enter Instuctor "/ >
+                                                </td>
+												<td>
+                                                    <input type="time" class="form-control" name="bfile" placeholder="Enter Instuctor "/ >
+                                                </td>
+                                                <td>
+                                                    <input type="text" class="form-control" name="btext" placeholder="Enter Loaction"/>
+                                                </td>
+                                                <td>
+                                                    <input type="text" class="form-control" name="bspecification" placeholder="Enter Content"/>
+                                                </td>
                                                 <td>&nbsp;</td>
                                             </tr>
                                         </tbody>
@@ -199,11 +210,18 @@
             var newRow = $("<tr>");
             var cols = "";
 
-            cols += '<td><input type="file" class="form-control" placeholder="" name="btext' + counter + '"/></td>';
+         cols += '<td><input type="file" class="form-control" placeholder="" name="btext' + counter + '"/></td>';
 
-            cols += '<td><input type="text" class="form-control" placeholder="Enter Instuctor Name" name="bemail' + counter + '"/></td>';
+            cols += '<td><input type="date" class="form-control" placeholder="Enter Rating" name="bemail' + counter + '"/></td>';
 
-            cols += '<td><input type="text" class="form-control" placeholder="Enter Specification" name="bnumber' + counter + '"/></td>';
+            cols += '<td><input type="text" class="form-control" placeholder="Enter Title" name="bnumber' + counter + '"/></td>';
+			
+			cols += '<td><input type="time" class="form-control" placeholder="" name="btext' + counter + '"/></td>';
+
+            cols += '<td><input type="time" class="form-control" placeholder="Enter Instuctor Name" name="bemail' + counter + '"/></td>';
+
+            cols += '<td><input type="text" class="form-control" placeholder="Enter Location" name="bnumber' + counter + '"/></td>'; 
+			cols += '<td><input type="text" class="form-control" placeholder="Enter Content" name="bnumber' + counter + '"/></td>';
 
           <!--  cols += '<td><select class="form-control" name="bselect' + counter + '"><option value="0" selected disabled>Select</option><option value="1">Option 1</option><option value="2">Option 2</option></select></td>';-->
 

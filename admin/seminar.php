@@ -6,11 +6,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Instuctors
+            Seminar
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-dashboard"></i>Home</a></li>
-            <li class="active">Instuctors</li>
+            <li class="active">Seminar</li>
         </ol>
     </section>
 
@@ -23,8 +23,8 @@
 			
 			<div class="box box-primary">
                     <div class="box-header with-border">
-                        <h1 class="box-title pull-left">Instuctors</h1>
-                        <a href="instructors_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a>
+                        <h1 class="box-title pull-left">Seminar</h1>
+                        <a href="seminar_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
@@ -71,12 +71,7 @@
                                 <input type="text" class="form-control" id="exampleInputemailid" name="text_heading" placeholder="Enter Heading">
                             </div>
 							</div>
-							<div class="col-lg-6">
-							<div class="form-group">
-                                <label for="exampleInputparagraph">Paragraph</label>
-                                <input type="text" class="form-control" id="exampleInputemailid" name="paragraph" placeholder="Enter Paragraph">
-                            </div>
-							</div>
+							
 							</div>
 						<form id="" name="" action="" method="">
                         <div class="box-body">
@@ -86,9 +81,13 @@
                                     <table id="myTable" class="table table-list">
                                         <thead>
                                             <tr>
-                                                <th>Instuctor Image</th>
+                                                <th>image</th>
+                                                <th>Date</th>
+                                                <th>Title</th>
+												<th>Time From</th>
+												<th>Time To</th>
                                                 <th>Instuctor Name</th>
-                                                <th>Specification</th>
+                                                <th>Registered</th>
                                                 <!--<th>Action</th>-->
                                                 <th>&nbsp;</th>
                                             </tr>
@@ -99,12 +98,23 @@
                                                     <input type="file" class="form-control" name="bfile" placeholder="Enter Instuctor "/ >
                                                 </td>
                                                 <td>
-                                                    <input type="text" class="form-control" name="btext" placeholder="Enter Instuctor Name"/>
+                                                    <input type="date" class="form-control" name="btext" placeholder="Enter Rating"/>
                                                 </td>
                                                 <td>
-                                                    <input type="text" class="form-control" name="bspecification" placeholder="Enter Specification"/>
+                                                    <input type="text" class="form-control" name="bspecification" placeholder="Enter Title"/>
                                                 </td>
-                                               
+                                               <td>
+                                                    <input type="time" class="form-control" name="bfile" placeholder="Enter Instuctor "/ >
+                                                </td>
+												<td>
+                                                    <input type="time" class="form-control" name="bfile" placeholder="Enter Instuctor "/ >
+                                                </td>
+                                                <td>
+                                                    <input type="text" class="form-control" name="btext" placeholder="Enter Loaction"/>
+                                                </td>
+                                                <td>
+                                                    <input type="text" class="form-control" name="bspecification" placeholder="Enter Content"/>
+                                                </td>
                                                 <td>&nbsp;</td>
                                             </tr>
                                         </tbody>
@@ -201,10 +211,16 @@
 
             cols += '<td><input type="file" class="form-control" placeholder="" name="btext' + counter + '"/></td>';
 
-            cols += '<td><input type="text" class="form-control" placeholder="Enter Instuctor Name" name="bemail' + counter + '"/></td>';
+            cols += '<td><input type="date" class="form-control" placeholder="Enter Rating" name="bemail' + counter + '"/></td>';
 
-            cols += '<td><input type="text" class="form-control" placeholder="Enter Specification" name="bnumber' + counter + '"/></td>';
+            cols += '<td><input type="text" class="form-control" placeholder="Enter Title" name="bnumber' + counter + '"/></td>';
+			
+			cols += '<td><input type="time" class="form-control" placeholder="" name="btext' + counter + '"/></td>';
 
+            cols += '<td><input type="time" class="form-control" placeholder="Enter Instuctor Name" name="bemail' + counter + '"/></td>';
+
+            cols += '<td><input type="text" class="form-control" placeholder="Enter Location" name="bnumber' + counter + '"/></td>'; 
+			cols += '<td><input type="text" class="form-control" placeholder="Enter Content" name="bnumber' + counter + '"/></td>';
           <!--  cols += '<td><select class="form-control" name="bselect' + counter + '"><option value="0" selected disabled>Select</option><option value="1">Option 1</option><option value="2">Option 2</option></select></td>';-->
 
             cols += '<td><button type="button" class="ibtnDel btn btn-md btn-danger"><i class="fa fa-trash"></i></button></td>';

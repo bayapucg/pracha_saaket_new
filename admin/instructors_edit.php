@@ -9,8 +9,10 @@
             Instuctors
         </h1>
         <ol class="breadcrumb">
-            <li><a href="index.php"><i class="fa fa-dashboard"></i>Home</a></li>
-            <li class="active">Instuctors</li>
+            <li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="instructors.php">Instuctors</a></li>
+            <li><a href="#">Edit</a></li>
+
         </ol>
     </section>
 
@@ -40,7 +42,7 @@
 							<div class="col-lg-6">
                             <div class="form-group">
                                 <label for="exampleInputtitle">Title</label>
-                                <input type="text" class="form-control" id="exampleInputemailid" name="title" placeholder="Enter title">
+                                <input type="text" class="form-control" id="exampleInputemailid" name="title" placeholder="Enter title" value="instuctors">
                             </div> 
 							</div>
 							</div>
@@ -48,19 +50,19 @@
 						<div class="col-lg-6">
                             <div class="form-group">
                                 <label for="exampleInputbanner">Link Name1</label>
-                             <input type="text" class="form-control" id="exampleInputEmail1" name="text_linkname"placeholder="Enter linkName1">
+                             <input type="text" class="form-control" id="exampleInputEmail1" name="text_linkname"placeholder="Enter linkName1" value="home">
 								</div>
 								<div class="form-group">
-                                <input type="text" class="form-control" id="exampleInputemailid" name="text_link" placeholder="Enter Link">
+                                <input type="text" class="form-control" id="exampleInputemailid" name="text_link" placeholder="Enter Link" value="psaaket/admin/index.php">
                             </div>
                             </div>
 							<div class="col-lg-6">
                             <div class="form-group">
                                 <label for="exampleInputbanner">Link Name2</label>
-                             <input type="text" class="form-control" id="exampleInputEmail1" name="text_linkname"placeholder="Enter linkName2">
+                             <input type="text" class="form-control" id="exampleInputEmail1" name="text_linkname"placeholder="Enter linkName2" value="instuctors">
 								</div>
 								<div class="form-group">
-                                <input type="text" class="form-control" id="exampleInputemailid" name="text_link" placeholder="Enter Link">
+                                <input type="text" class="form-control" id="exampleInputemailid" name="text_link" placeholder="Enter Link" value="psaaket/admin/instructors.php">
                             </div>
                             </div>
 							</div>
@@ -68,13 +70,13 @@
 						<div class="col-lg-6">
 							<div class="form-group">
                                 <label for="exampleInputheading">Heading</label>
-                                <input type="text" class="form-control" id="exampleInputemailid" name="text_heading" placeholder="Enter Heading">
+                                <input type="text" class="form-control" id="exampleInputemailid" name="text_heading" placeholder="Enter Heading" value="instructors">
                             </div>
 							</div>
 							<div class="col-lg-6">
 							<div class="form-group">
                                 <label for="exampleInputparagraph">Paragraph</label>
-                                <input type="text" class="form-control" id="exampleInputemailid" name="paragraph" placeholder="Enter Paragraph">
+                                <input type="text" class="form-control" id="exampleInputemailid" name="paragraph" placeholder="Enter Paragraph" value="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book.">
                             </div>
 							</div>
 							</div>
@@ -94,7 +96,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
+                                           <tr>
                                                 <td>
                                                     <input type="file" class="form-control" name="bfile" placeholder="Enter Instuctor "/ >
                                                 </td>
@@ -199,7 +201,7 @@
             var newRow = $("<tr>");
             var cols = "";
 
-            cols += '<td><input type="file" class="form-control" placeholder="" name="btext' + counter + '"/></td>';
+           cols += '<td><input type="file" class="form-control" placeholder="" name="btext' + counter + '"/></td>';
 
             cols += '<td><input type="text" class="form-control" placeholder="Enter Instuctor Name" name="bemail' + counter + '"/></td>';
 

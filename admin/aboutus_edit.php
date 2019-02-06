@@ -9,8 +9,8 @@
             About Us
             <!--<small>Preview</small>-->
         </h1>
-        <ol class="breadcrumb">
-            <li><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
+        <ol class="breadcrumb">	
+            <li><a href="index.php"><i class="fa fa-home"></i> Home</a></li>
             <li><a href="aboutus.php">About Us</a></li>
             <li><a href="#">Edit</a></li>
         </ol>
