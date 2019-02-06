@@ -29,6 +29,7 @@
                 </a>
                 <ul class="treeview-menu" style="display: none;">
                     <li><a href="top_nav.php"><i class="fa fa-circle-o"></i>Top Nav</a></li>
+                    <li><a href="topnav_list.php"><i class="fa fa-circle-o"></i>Top Nav List</a></li>
                     <li><a href="menu.php"><i class="fa fa-circle-o"></i>Menu</a></li>
                     <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
                     <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
@@ -47,8 +48,8 @@
                 <ul class="treeview-menu" style="display: none;">
                     <li><a href="aboutus.php"><i class="fa fa-circle-o"></i>AboutUs</a></li>
                     <li><a href="aboutus_list.php"><i class="fa fa-circle-o"></i>AboutUs List</a></li>
-                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
-                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                    <li><a href="testimonial.php"><i class="fa fa-circle-o"></i>Testimonial</a></li>
+                    <li><a href="testimonial_list.php"><i class="fa fa-circle-o"></i>Testimonial List</a></li>
                     <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
                     <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
                     <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
@@ -62,10 +63,10 @@
                     </span>
                 </a>
                 <ul class="treeview-menu" style="display: none;">
-                    <li><a href="courses.php"><i class="fa fa-circle-o"></i>Courses Main</a></li>
-                    <li><a href="menu.php"><i class="fa fa-circle-o"></i>Menu</a></li>
-                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
-                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                    <li><a href="courses.php"><i class="fa fa-circle-o"></i>Courses</a></li>
+                    <li><a href="menu.php"><i class="fa fa-circle-o"></i>Courses List</a></li>
+                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Courses Single</a></li>
+                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Courses SingleList</a></li>
                     <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
                     <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
                     <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
@@ -138,7 +139,7 @@
                     <li><a href="contactus_list.php"><i class="fa fa-circle-o"></i>ContactUs List</a></li>
                 </ul>
             </li>
-            <li class="treeview">
+            <!--<li class="treeview">
                 <a href="#">
                     <i class="fa fa-edit"></i> <span>Forms</span>
                     <span class="pull-right-container">
@@ -197,7 +198,7 @@
                     </li>
                     <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
                 </ul>
-            </li>
+            </li>-->
         </ul>
         <!-- /.sidebar-menu -->
     </section>
