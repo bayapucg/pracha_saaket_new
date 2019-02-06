@@ -6,11 +6,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Blog
+            Blog Single
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
-            <li><a href="blog.php">Blog</a></li>
+            <li><a href="blog_single.php">Blog Single</a></li>
             <li><a href="#">Edit</a></li>
 
         </ol>
@@ -25,8 +25,7 @@
 			
 			<div class="box box-primary">
                     <div class="box-header with-border">
-                        <h1 class="box-title pull-left">Blog</h1>
-                        
+                        <h1 class="box-title pull-left">Blog Single</h1>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
@@ -78,6 +77,10 @@
 												<th>Instructor name</th>
 												<th>Category</th>
                                                 <th>Paragraph</th>
+												<th>Facebook Link</th>
+                                                <th>Twitter  Link</th>
+												<th>Youtube Link</th>
+												<th>LinkedIn Link</th>
                                                 <!--<th>Action</th>-->
                                                 <th>&nbsp;</th>
                                             </tr>
@@ -103,7 +106,19 @@
                                                 <td>
                                                     <input type="text" class="form-control" name="btext" placeholder="Enter Pragraph"/>
                                                 </td>
-												 
+												 <td>
+                                                    <input type="text" class="form-control" name="" placeholder="Enter Facebooklink"/>
+                                                </td>
+                                                <td>
+                                                    <input type="text" class="form-control" name="btext" placeholder="Enter Twitterlink"/>
+                                                </td>
+                                               
+                                               <td>
+                                                    <input type="text" class="form-control" name="" placeholder="Enter Youtubelink"/ >
+                                                </td>
+												<td>
+                                                    <input type="text" class="form-control" name="bfile" placeholder="Enter LinkedInlink"/ >
+                                                </td>
                                                
                                                 <td>&nbsp;</td>
                                             </tr>
@@ -207,7 +222,12 @@
             cols += '<td><input type="text" class="form-control" placeholder="Enter Category" name="bemail' + counter + '"/></td>';
 
             cols += '<td><input type="text" class="form-control" placeholder="Enter Paragraph" name="bnumber' + counter + '"/></td>'; 
-			 
+			cols += '<td><input type="text" class="form-control" placeholder="Enter Facebooklink" name="btext' + counter + '"/></td>';
+
+            cols += '<td><input type="text" class="form-control" placeholder="Enter Twitterlink" name="bemail' + counter + '"/></td>';
+
+            cols += '<td><input type="text" class="form-control" placeholder="Enter Youtubelink" name="bnumber' + counter + '"/></td>'; 
+            cols += '<td><input type="text" class="form-control" placeholder="Enter Linkedinlink" name="bnumber' + counter + '"/></td>'; 
           <!--  cols += '<td><select class="form-control" name="bselect' + counter + '"><option value="0" selected disabled>Select</option><option value="1">Option 1</option><option value="2">Option 2</option></select></td>';-->
 
             cols += '<td><button type="button" class="ibtnDel btn btn-md btn-danger"><i class="fa fa-trash"></i></button></td>';

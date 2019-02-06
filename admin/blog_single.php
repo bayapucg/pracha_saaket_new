@@ -6,11 +6,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Blog
+            Blog Single
         </h1>
         <ol class="breadcrumb">
-            <li><a href="index.php"><i class="fa fa-dashboard"></i>Home</a></li>
-            <li class="active">Blog</li>
+            <li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
+            <li class="active">Blog Single</li>
         </ol>
     </section>
 
@@ -23,12 +23,12 @@
 			
 			<div class="box box-primary">
                     <div class="box-header with-border">	
-                        <h1 class="box-title pull-left">Blog</h1>
-                        <a href="blog_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a>
+                        <h1 class="box-title pull-left">Blog Single</h1>
+                        <a href="blogsingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
-                    <form role="form" action="blog.php" id="formValidate" name="formValidate">
+                    <form role="form" action="blog_single.php" id="formValidate" name="formValidate">
                         <div class="box-body">
 						<div class="row">
 						<div class="col-lg-6">
@@ -87,17 +87,17 @@
                                         <tbody>
                                             <tr>
                                                 <td>
-                                                    <input type="file" class="form-control" name="file" placeholder="Enter Instuctor "/ >
+                                                    <input type="file" class="form-control" name="" placeholder="Enter Instuctor "/ >
                                                 </td>
 												 <td>
-                                                    <input type="text" class="form-control" name="heading" placeholder="Enter Heading"/>
+                                                    <input type="text" class="form-control" name="" placeholder="Enter Heading"/>
                                                 </td>
                                                 <td>
                                                     <input type="date" class="form-control" name="btext" placeholder="Enter Rating"/>
                                                 </td>
                                                
                                                <td>
-                                                    <input type="text" class="form-control" name="file" placeholder="Enter Instuctor Name"/ >
+                                                    <input type="text" class="form-control" name="" placeholder="Enter Instuctor Name"/ >
                                                 </td>
 												<td>
                                                     <input type="text" class="form-control" name="bfile" placeholder="Enter Category"/ >
@@ -106,14 +106,14 @@
                                                     <input type="text" class="form-control" name="btext" placeholder="Enter Pragraph"/>
                                                 </td>
 												 <td>
-                                                    <input type="text" class="form-control" name="heading" placeholder="Enter Facebooklink"/>
+                                                    <input type="text" class="form-control" name="" placeholder="Enter Facebooklink"/>
                                                 </td>
                                                 <td>
                                                     <input type="text" class="form-control" name="btext" placeholder="Enter Twitterlink"/>
                                                 </td>
                                                
                                                <td>
-                                                    <input type="text" class="form-control" name="file" placeholder="Enter Youtubelink"/ >
+                                                    <input type="text" class="form-control" name="" placeholder="Enter Youtubelink"/ >
                                                 </td>
 												<td>
                                                     <input type="text" class="form-control" name="bfile" placeholder="Enter LinkedInlink"/ >
@@ -220,7 +220,12 @@
             cols += '<td><input type="text" class="form-control" placeholder="Enter Category" name="bemail' + counter + '"/></td>';
 
             cols += '<td><input type="text" class="form-control" placeholder="Enter Paragraph" name="bnumber' + counter + '"/></td>'; 
+			cols += '<td><input type="text" class="form-control" placeholder="Enter Facebooklink" name="btext' + counter + '"/></td>';
 
+            cols += '<td><input type="text" class="form-control" placeholder="Enter Twitterlink" name="bemail' + counter + '"/></td>';
+
+            cols += '<td><input type="text" class="form-control" placeholder="Enter Youtubelink" name="bnumber' + counter + '"/></td>'; 
+            cols += '<td><input type="text" class="form-control" placeholder="Enter Linkedinlink" name="bnumber' + counter + '"/></td>'; 
           <!--  cols += '<td><select class="form-control" name="bselect' + counter + '"><option value="0" selected disabled>Select</option><option value="1">Option 1</option><option value="2">Option 2</option></select></td>';-->
 
             cols += '<td><button type="button" class="ibtnDel btn btn-md btn-danger"><i class="fa fa-trash"></i></button></td>';

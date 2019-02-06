@@ -114,9 +114,9 @@
                 </a>
                 <ul class="treeview-menu" style="display: none;">
                     <li><a href="blog.php"><i class="fa fa-circle-o"></i>Blog</a></li>
-                    <li><a href="aboutus_list.php"><i class="fa fa-circle-o"></i>Blog List</a></li>
+                    <li><a href="blog_list.php"><i class="fa fa-circle-o"></i>Blog List</a></li>
                     <li><a href="blog_single.php"><i class="fa fa-circle-o"></i>Blog SinglePage</a></li>
-                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                    <li><a href="blogsingle_list.php"><i class="fa fa-circle-o"></i>Blog SinglepageList</a></li>
                     <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
                     <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
                     <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
