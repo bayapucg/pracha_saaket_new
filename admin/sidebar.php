@@ -98,11 +98,6 @@
                 <ul class="treeview-menu" style="display: none;">
                     <li><a href="instructors.php"><i class="fa fa-circle-o"></i>Instructors</a></li>
                     <li><a href="instructors_list.php"><i class="fa fa-circle-o"></i>Instuctors List</a></li>
-                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
-                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
-                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
-                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
-                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
                 </ul>
             </li>
 			<li class="treeview">
@@ -117,9 +112,6 @@
                     <li><a href="blog_list.php"><i class="fa fa-circle-o"></i>Blog List</a></li>
                     <li><a href="blog_single.php"><i class="fa fa-circle-o"></i>Blog SinglePage</a></li>
                     <li><a href="blogsingle_list.php"><i class="fa fa-circle-o"></i>Blog SinglepageList</a></li>
-                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
-                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
-                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
                 </ul>
             </li>
 			<li class="treeview">
