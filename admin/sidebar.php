@@ -37,7 +37,23 @@
                     <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
                 </ul>
             </li>
-			<li class=""><a href="aboutus.php"><i class="fa fa-bars" aria-hidden="true"></i> <span>About Us</span></a></li>
+			<li class="treeview">
+                <a href="#">
+                    <i class="fa fa-bars" aria-hidden="true"></i> <span>About US</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu" style="display: none;">
+                    <li><a href="aboutus.php"><i class="fa fa-circle-o"></i>AboutUs</a></li>
+                    <li><a href="aboutus_list.php"><i class="fa fa-circle-o"></i>AboutUs List</a></li>
+                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                </ul>
+            </li>
 			<li class="treeview">
                 <a href="#">
                     <i class="fa fa-bars" aria-hidden="true"></i> <span>Courses</span>
@@ -72,7 +88,69 @@
                     <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
                 </ul>
             </li>
-			<li class=""><a href="instructors.php"><i class="fa fa-bars" aria-hidden="true"></i> <span>Instuctors</span></a></li>
+			<li class="treeview">
+                <a href="#">
+                    <i class="fa fa-bars" aria-hidden="true"></i> <span>Instrutors</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu" style="display: none;">
+                    <li><a href="instructors.php"><i class="fa fa-circle-o"></i>Instructors</a></li>
+                    <li><a href="instructors_list.php"><i class="fa fa-circle-o"></i>Instuctors List</a></li>
+                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                </ul>
+            </li>
+			<li class="treeview">
+                <a href="#">
+                    <i class="fa fa-bars" aria-hidden="true"></i> <span>Blog</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu" style="display: none;">
+                    <li><a href="aboutus.php"><i class="fa fa-circle-o"></i>AboutUs</a></li>
+                    <li><a href="aboutus_list.php"><i class="fa fa-circle-o"></i>AboutUs List</a></li>
+                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                </ul>
+            </li>
+			<li class="treeview">
+                <a href="#">
+                    <i class="fa fa-bars" aria-hidden="true"></i> <span>Partners</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu" style="display: none;">
+                    <li><a href="aboutus.php"><i class="fa fa-circle-o"></i>AboutUs</a></li>
+                    <li><a href="aboutus_list.php"><i class="fa fa-circle-o"></i>AboutUs List</a></li>
+                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                </ul>
+            </li>
+			<li class="treeview">
+                <a href="#">
+                    <i class="fa fa-bars" aria-hidden="true"></i> <span>Contact</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu" style="display: none;">
+                    <li><a href="contactus.php"><i class="fa fa-circle-o"></i>ContactUs</a></li>
+                    <li><a href="contactus_list.php"><i class="fa fa-circle-o"></i>ContactUs List</a></li>
+                </ul>
+            </li>
             <li class="treeview">
                 <a href="#">
                     <i class="fa fa-edit"></i> <span>Forms</span>

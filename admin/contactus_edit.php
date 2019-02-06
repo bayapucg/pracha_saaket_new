@@ -6,12 +6,13 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-           Menu
+            Contact Us
             <!--<small>Preview</small>-->
         </h1>
-        <ol class="breadcrumb">
+        <ol class="breadcrumb">	
             <li><a href="index.php"><i class="fa fa-home"></i> Home</a></li>
-            <li><a href="#">Menu</a></li>
+            <li><a href="contactus.php">Contact Us</a></li>
+            <li><a href="#">Edit</a></li>
         </ol>
     </section>
 
@@ -23,75 +24,105 @@
                 <!-- general form elements -->
                 <div class="box box-primary">
                     <div class="box-header with-border">
-                        <h1 class="box-title pull-left">Menu</h1>
-                        <a href="menu_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a>
+                        <h1 class="box-title pull-left">Contact Us</h1>
+                        <a href="contactus_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
-                    <form role="form" action="top_nav.php" id="formValidate" name="formValidate">
+                    <form role="form" action="contactus.php" id="formValidate" name="formValidate">
                         <div class="box-body">
 						<div class="row">
 						<div class="col-lg-6">
                             <div class="form-group">
-                                <label for="exampleInputbanner">Logo</label>
+                                <label for="exampleInputbanner">Banner</label>
                              <input type="file" class="form-control" id="exampleInputEmail1" name="file"placeholder="Enter Address">
 								</div>
                             </div>
 							<div class="col-lg-6">
                             <div class="form-group">
-                                <label for="exampleInputtitle">Favicon</label>
-                                <input type="file" class="form-control" id="exampleInputemailid" name="file" placeholder="Enter title">
+                                <label for="exampleInputtitle">Title</label>
+                                <input type="text" class="form-control" id="exampleInputemailid" name="title" placeholder="Enter title" value="aboutus">
                             </div> 
 							</div>
 							</div>
 							<div class="row">
 						<div class="col-lg-6">
                             <div class="form-group">
-                                <label for="exampleInputbanner">Keywords</label>
-                             <input type="text" class="form-control" id="exampleInputEmail1" name="heading"placeholder="Enter Address">
+                                <label for="exampleInputbanner">Link Name1</label>
+                             <input type="text" class="form-control" id="exampleInputEmail1" name="text_linkname"placeholder="Enter linkName1" value="home">
 								</div>
+								<div class="form-group">
+                                <input type="text" class="form-control" id="exampleInputemailid" name="text_link" placeholder="Enter Link" value="psaaket/admin.home.php">
+                            </div>
                             </div>
 							<div class="col-lg-6">
                             <div class="form-group">
-                                <label for="exampleInputtitle">Favicon</label>
-                                <input type="file" class="form-control" id="exampleInputemailid" name="file" placeholder="Enter title">
-                            </div> 
-							</div>
-							</div>
-                        <div class="box-body">
-                            <div class="col-md-12">
-
-                                <div class="table-responsive">
-                                    <table id="myTable" class="table table-list">
-                                        <thead>
-                                            <tr>
-                                                <th>Menu Title</th>
-                                                <th>Menu Url</th>
-                                                <!--<th>Action</th>-->
-                                                <th>&nbsp;</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <input type="text" class="form-control" name="btext" placeholder="Enter Title"/>
-                                                </td>
-                                                <td>
-                                                    <input type="text" class="form-control" name="bspecification" placeholder="Enter Url"/>
-                                                </td>
-                                              
-                                                <td>&nbsp;</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    <button type="button" class="btn btn-md" id="addRow">Add Row</button>
-
-                                </div>
-                                <hr class="mb-10">
-                                
+                                <label for="exampleInputbanner">Link Name2</label>
+                             <input type="text" class="form-control" id="exampleInputEmail1" name="text_linkname"placeholder="Enter linkName2" value="aboutus">
+								</div>
+								<div class="form-group">
+                                <input type="text" class="form-control" id="exampleInputemailid" name="text_link" placeholder="Enter Link" value="psaaket/admi.php">
                             </div>
-                        </div>
-                    
+                            </div>
+							</div>
+							<div class="row">
+						<div class="col-lg-6">
+							<div class="form-group">
+                                <label for="exampleInputEmailid">Address</label>
+                                <input type="text" class="form-control" id="exampleInputphonenumber" placeholder="Enter address" name="file" value="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book">
+                            </div>
+							</div>
+							<div class="col-lg-6">
+							<div class="form-group">
+                                <label for="exampleInputphoneno">Phone Number</label>
+                                <input type="text" class="form-control" id="exampleInputemailid" name="paragraph" placeholder="Enter Phone Number" value="6756438923">
+                            </div>
+							</div>
+							</div>
+							<div class="row">
+						<div class="col-lg-6">
+							<div class="form-group">
+                                <label for="exampleInputEmailid">Email Id</label>
+                                <input type="text" class="form-control" id="exampleInputphonenumber" placeholder="Enter Emailid" name="file" value="psaaket@gmail.com">
+                            </div>
+							</div>
+							<div class="col-lg-6">
+							<div class="form-group">
+                                <label for="exampleInputphoneno">Location</label>
+                                <input type="text" class="form-control" id="exampleInputemailid" name="paragraph" placeholder="Enter Location" value="hyderabad">
+                            </div>
+							</div>
+							</div>
+							<div class="row">
+							<div class="col-lg-12"><h4>Social Media Links</h4></div>
+						<div class="col-lg-6">
+							<div class="form-group">
+                                <label for="exampleInputEmailid">Facebook</label>
+                                <input type="text" class="form-control" id="exampleInputphonenumber" placeholder="Enter facebook" name="file" value="www.facebook.com">
+                            </div>
+							</div>
+							<div class="col-lg-6">
+							<div class="form-group">
+                                <label for="exampleInputphoneno">Linked In</label>
+                                <input type="text" class="form-control" id="exampleInputemailid" name="paragraph" placeholder="Enter Linkedin" value="www.linkedin.com">
+                            </div>
+							</div>
+							</div>
+                         <div class="row">
+						<div class="col-lg-6">
+							<div class="form-group">
+                                <label for="exampleInputEmailid">Youtube</label>
+                                <input type="text" class="form-control" id="exampleInputphonenumber" placeholder="Enter Youtube" name="file" value="www.youtube.com">
+                            </div>
+							</div>
+							<div class="col-lg-6">
+							<div class="form-group">
+                                <label for="exampleInputphoneno">Google Plus</label>
+                                <input type="text" class="form-control" id="exampleInputemailid" name="paragraph" placeholder="Enter GooglePlus" value="www.gmail.com">
+                            </div>
+							</div>
+							</div>
+                        
                         </div>
                         <!-- /.box-body -->
 
@@ -143,7 +174,28 @@
                         }
                     }
                 },
-				
+				text_linkname: {
+                    validators: {
+                        notEmpty: {
+                            message: 'linkname is required'
+                        },
+                        regexp: {
+                            regexp: /^[ A-Za-z0-9_@.,/!;:}{@#&`~"\\|^?$*)(_+-]*$/,
+                            message: 'Name wont allow <> [] = % '
+                        }
+                    }
+                },
+				text_link: {
+                    validators: {
+                        notEmpty: {
+                            message: 'link is required'
+                        },
+                        regexp: {
+                            regexp: /^[ A-Za-z0-9_@.,/!;:}{@#&`~"\\|^?$*)(_+-]*$/,
+                            message: 'Name wont allow <> [] = % '
+                        }
+                    }
+                },
 				paragraph: {
                     validators: {
                         notEmpty: {
@@ -226,31 +278,3 @@
 
     });
 </script>
-<script>
-    $(document).ready(function() {
-        var counter = 0;
-
-        $("#addRow").on("click", function() {
-            var newRow = $("<tr>");
-            var cols = "";
-
-            cols += '<td><input type="text" class="form-control" placeholder="Enter Title" name="btext' + counter + '"/></td>';
-
-            cols += '<td><input type="text" class="form-control" placeholder="Enter Url" name="bemail' + counter + '"/></td>';
-
-           
-          <!--  cols += '<td><select class="form-control" name="bselect' + counter + '"><option value="0" selected disabled>Select</option><option value="1">Option 1</option><option value="2">Option 2</option></select></td>';-->
-
-            cols += '<td><button type="button" class="ibtnDel btn btn-md btn-danger"><i class="fa fa-trash"></i></button></td>';
-            
-            newRow.append(cols);
-            $("table.table-list").append(newRow);
-            counter++;
-        });
-
-        $("table.table-list").on("click", ".ibtnDel", function(event) {
-            $(this).closest("tr").remove();
-            counter -= 1;
-        });
-    });
-</script>	

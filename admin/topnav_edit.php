@@ -45,10 +45,43 @@ Telangana - 500072." name="address">
                                 <label for="exampleInputphonenumber">Phone Number</label>
                                 <input type="text" class="form-control" id="exampleInputphonenumber" placeholder="Phone Number" value="321 325 5678" name="phonenumber">
                             </div>
-                         
+                         <div class="row">
+						 <div class="col-lg-6"><div class="form-group">
+                                <label for="exampleInputhours">Opening Hours:</label>
+                                <select class="form-control" name="fv_select" id="">
+                                        <option value="" selected disabled>From</option>
+                                        <option value="">monday</option>
+                                        <option value="">tuesday</option>
+                                        <option value="">Wednesday</option>
+                                        <option value="">Thursday</option>
+                                        <option value="">Friday</option>
+                                        <option value="">Saturday</option>
+                                        <option value="">Sunday</option>
+                                    </select>
+                            </div></div>
+						  <div class="col-lg-6"><div class="form-group">
+                                <label for="exampleInputhours">Opening Hours:</label>
+                                <select class="form-control" name="fv_select" id="">
+                                        <option value="" selected disabled>To</option>
+                                        <option value="">monday</option>
+                                        <option value="">tuesday</option>
+                                        <option value="">Wednesday</option>
+                                        <option value="">Thursday</option>
+                                        <option value="">Friday</option>
+                                        <option value="">Saturday</option>
+                                        <option value="">Sunday</option>
+                                    </select>
+                            </div></div>
+						 </div>
+						 <div class="row">
+						 <div class="col-lg-6"><label for="exampleInputemailid">Time From</label>
+                                <input type="time" class="form-control" id="exampleInputemailid" name="" placeholder="Enter Email id"></div>
+						 <div class="col-lg-6"><label for="exampleInputemailid">Time To</label>
+                                <input type="time" class="form-control" id="exampleInputemailid" name="" placeholder="Enter Email id"></div>
+						 </div>
                         </div>
                         <!-- /.box-body -->
-
+						
                         <div class="box-footer">
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </div>
