@@ -6,11 +6,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Courses
+            Blog
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-dashboard"></i>Home</a></li>
-            <li class="active">Courses</li>
+            <li class="active">Blog</li>
         </ol>
     </section>
 
@@ -22,13 +22,13 @@
             <div class="col-md-12">
 			
 			<div class="box box-primary">
-                    <div class="box-header with-border">
-                        <h1 class="box-title pull-left">Courses</h1>
-                        <a href="courses_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a>
+                    <div class="box-header with-border">	
+                        <h1 class="box-title pull-left">Blog</h1>
+                        <a href="blog_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
-                    <form role="form" action="courses.php" id="formValidate" name="formValidate">
+                    <form role="form" action="blog.php" id="formValidate" name="formValidate">
                         <div class="box-body">
 						<div class="row">
 						<div class="col-lg-6">
@@ -64,17 +64,6 @@
                             </div>
                             </div>
 							</div>
-							<div class="row">
-						<div class="col-lg-6">
-							<div class="form-group">
-                                <label for="exampleInputheading">Heading</label>
-                                <input type="text" class="form-control" id="exampleInputemailid" name="text_heading" placeholder="Enter Heading">
-                            </div>
-							</div>
-							
-							</div>
-						
-                        <div class="box-body">
                             <div class="col-md-12">
 
                                 <div class="table-responsive">
@@ -82,11 +71,11 @@
                                         <thead>
                                             <tr>
                                                 <th>image</th>
-                                                <th>Rating</th>
-                                                <th>Course</th>
-												<th>Instuctor Image</th>
-                                                <th>Instuctor Name</th>
-                                                <th>Registered</th>
+                                                <th>Heading</th>
+                                                <th>Date</th>
+												<th>Instructor name</th>
+												<th>Category</th>
+                                                <th>Paragraph</th>
                                                 <!--<th>Action</th>-->
                                                 <th>&nbsp;</th>
                                             </tr>
@@ -94,22 +83,23 @@
                                         <tbody>
                                             <tr>
                                                 <td>
-                                                    <input type="file" class="form-control" name="bfile" placeholder="Enter Instuctor "/ >
+                                                    <input type="file" class="form-control" name="file" placeholder="Enter Instuctor "/ >
+                                                </td>
+												 <td>
+                                                    <input type="text" class="form-control" name="heading" placeholder="Enter Heading"/>
                                                 </td>
                                                 <td>
-                                                    <input type="text" class="form-control" name="btext" placeholder="Enter Rating"/>
+                                                    <input type="date" class="form-control" name="btext" placeholder="Enter Rating"/>
                                                 </td>
-                                                <td>
-                                                    <input type="text" class="form-control" name="bspecification" placeholder="Enter Course"/>
-                                                </td>
+                                               
                                                <td>
-                                                    <input type="file" class="form-control" name="bfile" placeholder="Enter Instuctor "/ >
+                                                    <input type="text" class="form-control" name="file" placeholder="Enter Instuctor Name"/ >
+                                                </td>
+												<td>
+                                                    <input type="text" class="form-control" name="bfile" placeholder="Enter Category"/ >
                                                 </td>
                                                 <td>
-                                                    <input type="text" class="form-control" name="btext" placeholder="Enter Instuctor Name"/>
-                                                </td>
-                                                <td>
-                                                    <input type="text" class="form-control" name="bspecification" placeholder="Enter Registered No"/>
+                                                    <input type="text" class="form-control" name="btext" placeholder="Enter Pragraph"/>
                                                 </td>
                                                 <td>&nbsp;</td>
                                             </tr>
@@ -121,9 +111,7 @@
                                 <hr class="mb-10">
                                 
                             </div>
-                        </div>
-                 
-                        
+ 
                         </div>
                         <!-- /.box-body -->
 
@@ -207,14 +195,14 @@
 
             cols += '<td><input type="file" class="form-control" placeholder="" name="btext' + counter + '"/></td>';
 
-            cols += '<td><input type="text" class="form-control" placeholder="Enter Rating" name="bemail' + counter + '"/></td>';
+            cols += '<td><input type="text" class="form-control" placeholder="Enter Heading" name="bnumber' + counter + '"/></td>';
+			 cols += '<td><input type="date" class="form-control" placeholder="Enter Rating" name="bemail' + counter + '"/></td>';
+			cols += '<td><input type="text" class="form-control" placeholder="Enter Instuctor Name" name="btext' + counter + '"/></td>';
 
-            cols += '<td><input type="text" class="form-control" placeholder="Enter Course" name="bnumber' + counter + '"/></td>';
-			cols += '<td><input type="file" class="form-control" placeholder="" name="btext' + counter + '"/></td>';
+            cols += '<td><input type="text" class="form-control" placeholder="Enter Category" name="bemail' + counter + '"/></td>';
 
-            cols += '<td><input type="text" class="form-control" placeholder="Enter Instuctor Name" name="bemail' + counter + '"/></td>';
+            cols += '<td><input type="text" class="form-control" placeholder="Enter Paragraph" name="bnumber' + counter + '"/></td>'; 
 
-            cols += '<td><input type="text" class="form-control" placeholder="Enter Registered No" name="bnumber' + counter + '"/></td>';
           <!--  cols += '<td><select class="form-control" name="bselect' + counter + '"><option value="0" selected disabled>Select</option><option value="1">Option 1</option><option value="2">Option 2</option></select></td>';-->
 
             cols += '<td><button type="button" class="ibtnDel btn btn-md btn-danger"><i class="fa fa-trash"></i></button></td>';

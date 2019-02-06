@@ -113,9 +113,9 @@
                     </span>
                 </a>
                 <ul class="treeview-menu" style="display: none;">
-                    <li><a href="aboutus.php"><i class="fa fa-circle-o"></i>AboutUs</a></li>
-                    <li><a href="aboutus_list.php"><i class="fa fa-circle-o"></i>AboutUs List</a></li>
-                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                    <li><a href="blog.php"><i class="fa fa-circle-o"></i>Blog</a></li>
+                    <li><a href="aboutus_list.php"><i class="fa fa-circle-o"></i>Blog List</a></li>
+                    <li><a href="blog_single.php"><i class="fa fa-circle-o"></i>Blog SinglePage</a></li>
                     <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
                     <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
                     <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
@@ -130,13 +130,8 @@
                     </span>
                 </a>
                 <ul class="treeview-menu" style="display: none;">
-                    <li><a href="aboutus.php"><i class="fa fa-circle-o"></i>AboutUs</a></li>
-                    <li><a href="aboutus_list.php"><i class="fa fa-circle-o"></i>AboutUs List</a></li>
-                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
-                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
-                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
-                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
-                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
+                    <li><a href="partners.php"><i class="fa fa-circle-o"></i>partners</a></li>
+                    <li><a href="partners_list.php"><i class="fa fa-circle-o"></i>partners List</a></li>
                 </ul>
             </li>
 			<li class="treeview">
