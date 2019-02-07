@@ -20,6 +20,7 @@
     <!-- Validations -->
     <!--<script src="js/validations.js"></script>-->
 
+<script type="text/javascript" src="//cdn.jsdelivr.net/snap.svg/0.1.0/snap.svg-min.js"></script>
     <script>
         $(document).ready(function(){
             $('#example1').DataTable();
