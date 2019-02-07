@@ -6,11 +6,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Instuctors
+            Courses Single
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
-            <li><a href="Courses.php">Courses</a></li>
+            <li><a href="Courses_single.php">Courses single</a></li>
             <li><a href="#">Edit</a></li>
 
         </ol>
@@ -25,8 +25,7 @@
 			
 			<div class="box box-primary">
                     <div class="box-header with-border">
-                        <h1 class="box-title pull-left">Courses</h1>
-                        <a href="instructors_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a>
+                        <h1 class="box-title pull-left">Courses Single</h1>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
@@ -66,17 +65,6 @@
                             </div>
                             </div>
 							</div>
-							<div class="row">
-						<div class="col-lg-6">
-							<div class="form-group">
-                                <label for="exampleInputheading">Heading</label>
-                                <input type="text" class="form-control" id="exampleInputemailid" name="text_heading" placeholder="Enter Heading" value="courses">
-                            </div>
-							</div>
-							
-							</div>
-						<form id="" name="" action="" method="">
-                        <div class="box-body">
                             <div class="col-md-12">
 
                                 <div class="table-responsive">
@@ -123,8 +111,6 @@
                                 <hr class="mb-10">
                                 
                             </div>
-                        </div>
-                    </form>
                         
                         </div>
                         <!-- /.box-body -->

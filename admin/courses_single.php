@@ -6,11 +6,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Courses
+            Courses Single
         </h1>
         <ol class="breadcrumb">
-            <li><a href="index.php"><i class="fa fa-dashboard"></i>Home</a></li>
-            <li class="active">Courses</li>
+            <li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
+            <li class="active">Courses Single</li>
         </ol>
     </section>
 
@@ -23,12 +23,12 @@
 			
 			<div class="box box-primary">
                     <div class="box-header with-border">
-                        <h1 class="box-title pull-left">Courses</h1>
-                        <a href="courses_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a>
+                        <h1 class="box-title pull-left">Courses Single</h1>
+                        <a href="coursessingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
-                    <form role="form" action="courses.php" id="formValidate" name="formValidate">
+                    <form role="form" action="courses_single.php" id="formValidate" name="formValidate">
                         <div class="box-body">
 						<div class="row">
 						<div class="col-lg-6">

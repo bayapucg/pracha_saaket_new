@@ -28,7 +28,7 @@
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
-                    <form role="form" action="sliders.php" id="formValidate" name="formValidate">
+                    <form role="form" action="best_platform.php" id="formValidate" name="formValidate">
                         <div class="box-body">
                         <div class="box-body">
                             <div class="col-md-12">

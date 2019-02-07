@@ -6,12 +6,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Sliders List
+           OverView List
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
-            <li><a href="sliders.php">Sliders</a></li>
-            <li class="active">Sliders List</li>
+            <li><a href="courses.php">Overview</a></li>
+            <li class="active">OverView List</li>
         </ol>
     </section>
 
@@ -27,51 +27,37 @@
                         <table id="example1" class="table table-bordered table-striped">
                             <thead>
                                 <tr>
-                                    <th>banner</th>
-                                    <th>Title</th>
-                                    <th>Content</th>
+                                    <th>Heading</th>
+                                    <th>Paragraph</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>slider
-                                    </td>
+                                    <td>overview</td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
-                                    <td> <a href="sliders_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
-                                    
+                                    <td> <a href="overview_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
-								<tr>
-                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>slider
-                                    </td>
+                                 <tr>
+                                    <td>overview</td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
-                                    <td> <a href="sliders_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
-                                    
+                                    <td> <a href="overview_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
                                 <tr>
-                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>slider
-                                    </td>
+                                    <td>overview</td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
-                                    <td> <a href="sliders_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
-                                    
+                                    <td> <a href="overview_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
-                           <tr>
-                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>slider
-                                    </td>
+                               <tr>
+                                    <td>overview</td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
-                                    <td> <a href="sliders_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
-                                    
+                                    <td> <a href="overview_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
                             </tbody>
                             <tfoot>
                                 <tr>
-                                      <th>banner</th>
-                                    <th>Title</th>
-                                    <th>Content</th>
+								<th>Heading</th>
+                                    <th>Paragraph</th>
                                     <th>Action</th>
                                 </tr>
                             </tfoot>

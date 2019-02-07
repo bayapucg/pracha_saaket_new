@@ -6,12 +6,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            ContactUs List
+            Best Platform List
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
-            <li><a href="contactus.php">Contact Us</a></li>
-            <li class="active">ContactUs List</li>
+            <li><a href="contactus.php">Best Platform</a></li>
+            <li class="active">Best Platform List</li>
         </ol>
     </section>
 
@@ -28,133 +28,45 @@
                             <thead>
                                 <tr>
                                     <th>img</th>
-                                    <th>Title</th>
-                                    <th>Link Name1</th>
-                                    <th>Link url</th>
-									<th>Link Name2</th>
-                                    <th>Link url</th>
-                                    <th>add</th>
-                                    <th>No</th>
-                                    <th>Emailid</th>
-                                    <th>Location</th>
-                                    <th>FB link</th>
-                                    <th>LN link</th>
-                                    <th>YT link</th>
-                                    <th>G+ link</th>
+                                    <th>Heading</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>contact
+                                    <td>bestplatform
                                     </td>
-                                    <td>home</td>
-                                    <td>index .php</td>
-                                    <td>contact</td>
-									<td>contact .php</td>
-                                    <td>hyd
+                                    <td> <a href="bestplatform_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
+                                    
+                                </tr>
+                               <tr>
+                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
+                                    <td>bestplatform
                                     </td>
-                                    <td>87654 39034</td>
-                                    <td>psaak @gmail.com</td>
-									<td>Hyd</td>
-                                    <td>facebook
-									.com</td>
-									<td>linkedin .com</td>
-                                    <td>youtube .com
-                                    </td>
-                                    <td>gmail .com</td>
-                                    <td> <a href="contactus_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
+                                    <td> <a href="bestplatform_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                     
                                 </tr>
                                 <tr>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>contact
+                                    <td>bestplatform
                                     </td>
-                                    <td>home</td>
-                                    <td>index .php</td>
-                                    <td>contact</td>
-									<td>contact .php</td>
-                                    <td>hyd
-                                    </td>
-                                    <td>87654 39034</td>
-                                    <td>psaak @gmail.com</td>
-									<td>Hyd</td>
-                                    <td>facebook
-									.com</td>
-									<td>linkedin .com</td>
-                                    <td>youtube .com
-                                    </td>
-                                    <td>gmail .com</td>
-                                    <td> <a href="contactus_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
+                                    <td> <a href="bestplatform_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                     
                                 </tr>
-                                <tr>
+                              <tr>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>contact
+                                    <td>bestplatform
                                     </td>
-                                    <td>home</td>
-                                    <td>index .php</td>
-                                    <td>contact</td>
-									<td>contact .php</td>
-                                    <td>hyd
-                                    </td>
-                                    <td>87654 39034</td>
-                                    <td>psaak @gmail.com</td>
-									<td>Hyd</td>
-                                    <td>facebook
-									.com</td>
-									<td>linkedin .com</td>
-                                    <td>youtube .com
-                                    </td>
-                                    <td>gmail .com</td>
-                                    <td> <a href="contactus_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
+                                    <td> <a href="bestplatform_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                     
                                 </tr>
-                                <tr>
-                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>contact
-                                    </td>
-                                    <td>home</td>
-                                    <td>index .php</td>
-                                    <td>contact</td>
-									<td>contact .php</td>
-                                    <td>hyd
-                                    </td>
-                                    <td>87654 39034</td>
-                                    <td>psaak @gmail.com</td>
-									<td>Hyd</td>
-                                    <td>facebook
-									.com</td>
-									<td>linkedin .com</td>
-                                    <td>youtube .com
-                                    </td>
-                                    <td>gmail .com</td>
-                                    <td> <a href="contactus_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
-                                    
-                                </tr>
-                                
-                           
                             </tbody>
                             <tfoot>
                                 <tr>
-                                     <tr>
-                                    <th>img</th>
-                                    <th>Title</th>
-                                    <th>Link Name1</th>
-                                    <th>Link url</th>
-									<th>Link Name2</th>
-                                    <th>Link url</th>
-                                    <th>add</th>
-                                    <th>No</th>
-                                    <th>Emailid</th>
-                                     <th>Location</th>
-                                    <th>FB link</th>
-                                    <th>LN link</th>
-                                    <th>YT link</th>
-                                    <th>G+ link</th>
+                                     <th>img</th>
+                                    <th>Heading</th>
                                     <th>Action</th>
-                                </tr>
                                 </tr>
                             </tfoot>
                         </table>

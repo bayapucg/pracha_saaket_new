@@ -40,7 +40,7 @@
             </li>
 			<li class="treeview">
                 <a href="#">
-                    <i class="fa fa-bars" aria-hidden="true"></i> <span>About US</span>
+                    <i class="fa fa-bars" aria-hidden="true"></i> <span>About Us</span>
                     <span class="pull-right-container">
                         <i class="fa fa-angle-left pull-right"></i>
                     </span>
@@ -93,7 +93,7 @@
                 </a>
                 <ul class="treeview-menu" style="display: none;">
                     <li><a href="seminar.php"><i class="fa fa-circle-o"></i>Seminars</a></li>
-                    <li><a href="menu.php"><i class="fa fa-circle-o"></i>Seminars List</a></li>
+                    <li><a href="seminar_list.php"><i class="fa fa-circle-o"></i>Seminars List</a></li>
 					<li class="treeview">
                 <a href="#">
                     <i class="fa fa-circle-o"></i> <span>Seminars Single</span>
@@ -161,66 +161,6 @@
                     <li><a href="contactus_list.php"><i class="fa fa-circle-o"></i>ContactUs List</a></li>
                 </ul>
             </li>
-            <!--<li class="treeview">
-                <a href="#">
-                    <i class="fa fa-edit"></i> <span>Forms</span>
-                    <span class="pull-right-container">
-                        <i class="fa fa-angle-left pull-right"></i>
-                    </span>
-                </a>
-                <ul class="treeview-menu" style="display: none;">
-                    <li><a href="general-elements.php"><i class="fa fa-circle-o"></i>General Elements</a></li>
-                    <li><a href="form-validations.php"><i class="fa fa-circle-o"></i>Form Validations</a></li>
-                </ul>
-            </li>
-            <li><a href="datatable.php"><i class="fa fa-table"></i> <span>Datatable</span></a></li>
-            <li><a href="add-multiple.php"><i class="fa fa-plus-square"></i> <span>Add Multiple(more) Items</span></a></li>
-            <li class="treeview">
-                <a href="#">
-                    <i class="fa fa-folder"></i> <span>Single Level</span>
-                    <span class="pull-right-container">
-                        <i class="fa fa-angle-left pull-right"></i>
-                    </span>
-                </a>
-                <ul class="treeview-menu" style="display: none;">
-                    <li><a href="#"><i class="fa fa-circle-o"></i>Page 1</a></li>
-                    <li><a href="#"><i class="fa fa-circle-o"></i>Page 2</a></li>
-                    <li><a href="#"><i class="fa fa-circle-o"></i>Page 3</a></li>
-                </ul>
-            </li>
-            <li class="treeview">
-                <a href="#">
-                    <i class="fa fa-share"></i> <span>Multilevel</span>
-                    <span class="pull-right-container">
-                        <i class="fa fa-angle-left pull-right"></i>
-                    </span>
-                </a>
-                <ul class="treeview-menu" style="display: none;">
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
-                    <li class="treeview">
-                        <a href="#"><i class="fa fa-circle-o"></i> Level One
-                            <span class="pull-right-container">
-                                <i class="fa fa-angle-left pull-right"></i>
-                            </span>
-                        </a>
-                        <ul class="treeview-menu">
-                            <li><a href="#"><i class="fa fa-circle-o"></i> Level Two</a></li>
-                            <li class="treeview">
-                                <a href="#"><i class="fa fa-circle-o"></i> Level Two
-                                    <span class="pull-right-container">
-                                        <i class="fa fa-angle-left pull-right"></i>
-                                    </span>
-                                </a>
-                                <ul class="treeview-menu">
-                                    <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
-                                    <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
-                </ul>
-            </li>-->
         </ul>
         <!-- /.sidebar-menu -->
     </section>
