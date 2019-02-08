@@ -6,7 +6,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-           Menu List
+           Menu 
             <!--<small>Preview</small>-->
         </h1>
         <ol class="breadcrumb">
@@ -24,7 +24,7 @@
                 <!-- general form elements -->
                 <div class="box box-primary">
                     <div class="box-header with-border">
-                        <h1 class="box-title pull-left">Menu List</h1>
+                        <h1 class="box-title pull-left">Menu </h1>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->

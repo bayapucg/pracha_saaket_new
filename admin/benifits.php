@@ -28,7 +28,7 @@
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
-                    <form role="form" action="matter.php" id="formValidate" name="formValidate">
+                    <form role="form" action="benifits.php" id="formValidate" name="formValidate">
                         <div class="box-body">
                         <div class="box-body">
                             <div class="col-md-12">
@@ -37,6 +37,8 @@
                                     <table id="myTable" class="table table-list">
                                         <thead>
                                             <tr>
+                                                <th>Banner</th>
+                                                <th>Heading</th>
                                                 <th>Image</th>
                                                 <th>Heading</th>
                                                 <th>Paragraph</th>
@@ -46,6 +48,12 @@
                                         </thead>
                                         <tbody>
                                             <tr>
+											<td>
+                                                    <input type="file" class="form-control" name="btext" placeholder="Enter Heading"/>
+                                                </td>
+                                                <td>
+                                                    <input type="text" class="form-control" name="btext" placeholder="Enter Heading"/>
+                                                </td>
 											 <td>
                                                     <input type="file" class="form-control" name="btext" placeholder="Enter Heading"/>
                                                 </td>
@@ -209,7 +217,8 @@
         $("#addRow").on("click", function() {
             var newRow = $("<tr>");
             var cols = "";
-
+			 cols += '<td><input type="file" class="form-control" placeholder="Enter Heading" name="btext' + counter + '"/></td>';
+			    cols += '<td><input type="text" class="form-control" placeholder="Enter Heading" name="btext' + counter + '"/></td>';
             cols += '<td><input type="file" class="form-control" placeholder="Enter Heading" name="btext' + counter + '"/></td>';
 			    cols += '<td><input type="text" class="form-control" placeholder="Enter Heading" name="btext' + counter + '"/></td>';
             cols += '<td><input type="text" class="form-control" placeholder="Enter Paragraph" name="bemail' + counter + '"/></td>';

@@ -28,17 +28,18 @@
                             <thead>
                                 <tr>
                                     <th>img</th>
-                                    <th>Title</th>
-                                    <th>Link Name1</th>
+                                    <th>Tit le</th>
+                                    <th>Link Nam e1</th>
                                     <th>Link url</th>
-									<th>Link Name2</th>
+									<th>Link Nam e2</th>
                                     <th>Link url</th>
                                     <th>Head ing</th>
                                     <th>Para graph</th>
+                                    <th>ima ge</th>
                                     <th>Choo se h eadi ng</th>
                                     <th>choo se c onte nt</th>
                                     <th>visi on</th>
-                                    <th>visi onco ntan t</th>
+                                    <th>visi onc ont ant</th>
 									<th>miss ion</th>
                                     <th>miss ion cont ant</th>
                                     <th>Action</th>
@@ -47,107 +48,112 @@
                             <tbody>
                                 <tr>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>contact
+                                    <td>con tact
                                     </td>
-                                    <td>home</td>
+                                    <td>ho me</td>
                                     <td>index .php</td>
                                     <td>contact</td>
 									<td>contact .php</td>
                                     <td>instr uctors
                                     </td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
+									<td><img src="img/list.jpg" style="width:40px;height:50px"></td>
                                     <td>instr uctors
                                     </td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
 									<td>instr uctors
                                     </td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
 									<td>instr uctors
                                     </td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
+                                    <td> <a href="aboutus_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
+                                </tr>
+                                  <tr>
+                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
+                                    <td>con tact
+                                    </td>
+                                    <td>ho me</td>
+                                    <td>index .php</td>
+                                    <td>contact</td>
+									<td>contact .php</td>
+                                    <td>instr uctors
+                                    </td>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
+									<td><img src="img/list.jpg" style="width:40px;height:50px"></td>
+                                    <td>instr uctors
+                                    </td>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
+									<td>instr uctors
+                                    </td>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+									<td>instr uctors
+                                    </td>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
+                                    <td> <a href="aboutus_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
+                                    <td>con tact
+                                    </td>
+                                    <td>ho me</td>
+                                    <td>index .php</td>
+                                    <td>contact</td>
+									<td>contact .php</td>
+                                    <td>instr uctors
+                                    </td>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
+									<td><img src="img/list.jpg" style="width:40px;height:50px"></td>
+                                    <td>instr uctors
+                                    </td>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
+									<td>instr uctors
+                                    </td>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+									<td>instr uctors
+                                    </td>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
                                     <td> <a href="aboutus_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
                                  <tr>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>contact
+                                    <td>con tact
                                     </td>
-                                    <td>home</td>
+                                    <td>ho me</td>
                                     <td>index .php</td>
                                     <td>contact</td>
 									<td>contact .php</td>
                                     <td>instr uctors
                                     </td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
+									<td><img src="img/list.jpg" style="width:40px;height:50px"></td>
                                     <td>instr uctors
                                     </td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
 									<td>instr uctors
                                     </td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
 									<td>instr uctors
                                     </td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
-                                    <td> <a href="aboutus_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
-                                </tr>
-                                <tr>
-                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>contact
-                                    </td>
-                                    <td>home</td>
-                                    <td>index .php</td>
-                                    <td>contact</td>
-									<td>contact .php</td>
-                                    <td>instr uctors
-                                    </td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
-                                    <td>instr uctors
-                                    </td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
-									<td>instr uctors
-                                    </td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
-									<td>instr uctors
-                                    </td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
-                                    <td> <a href="aboutus_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
-                                </tr>
-                                <tr>
-                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>contact
-                                    </td>
-                                    <td>home</td>
-                                    <td>index .php</td>
-                                    <td>contact</td>
-									<td>contact .php</td>
-                                    <td>instr uctors
-                                    </td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
-                                    <td>instr uctors
-                                    </td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
-									<td>instr uctors
-                                    </td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
-									<td>instr uctors
-                                    </td>
-                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
                                     <td> <a href="aboutus_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
                             </tbody>
                             <tfoot>
                                 <tr>
-                                      <th>img</th>
-                                    <th>Title</th>
-                                    <th>Link Name1</th>
+                                    <th>img</th>
+                                    <th>Tit le</th>
+                                    <th>Link Nam e1</th>
                                     <th>Link url</th>
-									<th>Link Name2</th>
+									<th>Link Nam e2</th>
                                     <th>Link url</th>
-                                    <th>Heading</th>
+                                    <th>Head ing</th>
                                     <th>Para graph</th>
+                                    <th>ima ge</th>
                                     <th>Choo se h eadi ng</th>
                                     <th>choo se c onte nt</th>
                                     <th>visi on</th>
-                                    <th>visi onco ntan t</th>
+                                    <th>visi onc ont ant</th>
 									<th>miss ion</th>
                                     <th>miss ion cont ant</th>
                                     <th>Action</th>

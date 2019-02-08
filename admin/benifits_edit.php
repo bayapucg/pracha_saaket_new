@@ -37,6 +37,8 @@
                                     <table id="myTable" class="table table-list">
                                         <thead>
                                             <tr>
+											<th>Banner</th>
+                                                <th>Heading</th>
                                                 <th>image</th>
                                                 <th>Heading</th>
                                                 <th>Paragraph</th>
@@ -46,6 +48,12 @@
                                         </thead>
                                         <tbody>
                                             <tr>
+											<td>
+                                                    <input type="file" class="form-control" name="btext" placeholder="Enter Heading"/>
+                                                </td>
+                                                <td>
+                                                    <input type="text" class="form-control" name="btext" placeholder="Enter Heading"/>
+                                                </td>
 											<td>
                                                     <input type="file" class="form-control" name="btext" placeholder="Enter "/ >
                                                 </td>
@@ -209,8 +217,10 @@
         $("#addRow").on("click", function() {
             var newRow = $("<tr>");
             var cols = "";
-
-            cols += '<td><input type="text" class="form-control" placeholder="Enter Heading" name="btext' + counter + '"/></td>';
+			 cols += '<td><input type="file" class="form-control" placeholder="Enter Heading" name="btext' + counter + '"/></td>';
+			    cols += '<td><input type="text" class="form-control" placeholder="Enter Heading" name="btext' + counter + '"/></td>';
+				 cols += '<td><input type="file" class="form-control" placeholder="Enter Heading" name="btext' + counter + '"/></td>';
+			    cols += '<td><input type="text" class="form-control" placeholder="Enter Heading" name="btext' + counter + '"/></td>';
 
             cols += '<td><input type="text" class="form-control" placeholder="Enter Paragraph" name="bemail' + counter + '"/></td>';
 

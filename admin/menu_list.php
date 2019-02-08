@@ -10,7 +10,7 @@
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
-            <li><a href="contactus.php">Menu</a></li>
+            <li><a href="menu.php">Menu</a></li>
             <li class="active">Menu List</li>
         </ol>
     </section>

@@ -28,7 +28,7 @@
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
-                    <form role="form" action="top_nav.php" id="formValidate" name="formValidate">
+                    <form role="form" action="menu.php" id="formValidate" name="formValidate">
                         <div class="box-body">
 						<div class="row">
 						<div class="col-lg-6">
@@ -237,10 +237,6 @@
             cols += '<td><input type="text" class="form-control" placeholder="Enter Title" name="btext' + counter + '"/></td>';
 
             cols += '<td><input type="text" class="form-control" placeholder="Enter Url" name="bemail' + counter + '"/></td>';
-
-           
-          <!--  cols += '<td><select class="form-control" name="bselect' + counter + '"><option value="0" selected disabled>Select</option><option value="1">Option 1</option><option value="2">Option 2</option></select></td>';-->
-
             cols += '<td><button type="button" class="ibtnDel btn btn-md btn-danger"><i class="fa fa-trash"></i></button></td>';
             
             newRow.append(cols);
