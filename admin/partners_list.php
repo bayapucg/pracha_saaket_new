@@ -9,7 +9,7 @@
             Partners
         </h1>
         <ol class="breadcrumb">
-            <li><a href="index.php"><i class="fa fa-dashboard"></i>Home</a></li>
+            <li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
              <li><a href="partners.php">Partners</a></li>
             <li><a href="#">Partners List</a></li>
         </ol>

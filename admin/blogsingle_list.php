@@ -6,11 +6,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Blog List
+            Blog Single List
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
-            <li><a href="blog_single.php">Blog Us</a></li>
+            <li><a href="blog_single.php">Blog Single</a></li>
             <li class="active">Blog List</li>
         </ol>
     </section>
@@ -65,7 +65,7 @@
                                     <td>23 january 2019</td>
 									<td>john</td>
                                     <td>busi ness</td>
-									<td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
+									<td>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
                                     <td>face book
 									.com</td>
 									<td>link edin .com</td>
@@ -89,7 +89,7 @@
                                     <td>23 january 2019</td>
 									<td>john</td>
                                     <td>busi ness</td>
-									<td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
+									<td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
                                     <td>face book
 									.com</td>
 									<td>link edin .com</td>
@@ -114,7 +114,7 @@
                                     <td>23 january 2019</td>
 									<td>john</td>
                                     <td>busi ness</td>
-									<td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
+									<td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
                                    <td>face book
 									.com</td>
 									<td>link edin .com</td>
@@ -139,7 +139,7 @@
                                     <td>23 january 2019</td>
 									<td>john</td>
                                     <td>busi ness</td>
-									<td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
+									<td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
                                    <td>face book
 									.com</td>
 									<td>link edin .com</td>

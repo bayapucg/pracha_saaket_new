@@ -25,7 +25,6 @@
                 <div class="box box-primary">
                     <div class="box-header with-border">
                         <h1 class="box-title pull-left">Partners</h1>
-                        <a href="partners_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->

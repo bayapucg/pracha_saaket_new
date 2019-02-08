@@ -6,12 +6,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Courses Single List
+            Seminars Single List
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
-            <li><a href="seminars_single.php">Courses Single</a></li>
-            <li class="active">Courses SIngle List</li>
+            <li><a href="seminars_single.php">Seminars Single</a></li>
+            <li class="active">Seminars Single List</li>
         </ol>
     </section>
 

@@ -9,7 +9,7 @@
             Instuctors
         </h1>
         <ol class="breadcrumb">
-            <li><a href="index.php"><i class="fa fa-dashboard"></i>Home</a></li>
+            <li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
             <li class="active">Instuctors</li>
         </ol>
     </section>
@@ -28,7 +28,7 @@
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
-                    <form role="form" action="top_nav.php" id="formValidate" name="formValidate">
+                    <form role="form" action="instructors.php" id="formValidate" name="formValidate">
                         <div class="box-body">
 						<div class="row">
 						<div class="col-lg-6">
@@ -78,8 +78,6 @@
                             </div>
 							</div>
 							</div>
-						<form id="" name="" action="" method="">
-                        <div class="box-body">
                             <div class="col-md-12">
 
                                 <div class="table-responsive">
@@ -115,9 +113,6 @@
                                 <hr class="mb-10">
                                 
                             </div>
-                        </div>
-                    </form>
-                        
                         </div>
                         <!-- /.box-body -->
 
