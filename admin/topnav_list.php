@@ -10,7 +10,7 @@
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
-            <li><a href="contactus.php">TopNAv</a></li>
+            <li><a href="top_nav.php">Top Nav</a></li>
             <li class="active">TopNav List</li>
         </ol>
     </section>
@@ -27,134 +27,72 @@
                         <table id="example1" class="table table-bordered table-striped">
                             <thead>
                                 <tr>
-                                    <th>img</th>
-                                    <th>Title</th>
-                                    <th>Link Name1</th>
-                                    <th>Link url</th>
-									<th>Link Name2</th>
-                                    <th>Link url</th>
-                                    <th>add</th>
-                                    <th>No</th>
-                                    <th>Emailid</th>
-                                    <th>Location</th>
-                                    <th>FB link</th>
-                                    <th>LN link</th>
-                                    <th>YT link</th>
-                                    <th>G+ link</th>
+                                    <th>Address</th>
+                                    <th>Email id</th>
+                                    <th>Phone Number</th>
+                                    <th>Opening Hours From</th>
+									<th>Opening Hours To</th>
+                                    <th>Time From</th>
+                                    <th>Time To</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>contact
+                                    <td> Sri Vani Nilayam, Opp To Nizampet X Roads Plot No - 177, Sardar Patel Nagar, Hyderabad, Telangana 500090</td>
+                                    <td>Psaaket@gmail.com</td>
+                                    <td>8756349023</td>
+                                    <td>monday</td>
+									<td>Saturday</td>
+                                    <td>09:00
                                     </td>
-                                    <td>home</td>
-                                    <td>index .php</td>
-                                    <td>contact</td>
-									<td>contact .php</td>
-                                    <td>hyd
-                                    </td>
-                                    <td>87654 39034</td>
-                                    <td>psaak @gmail.com</td>
-									<td>Hyd</td>
-                                    <td>facebook
-									.com</td>
-									<td>linkedin .com</td>
-                                    <td>youtube .com
-                                    </td>
-                                    <td>gmail .com</td>
-                                    <td> <a href="contactus_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
-                                    
+                                    <td>07:00</td>
+                                    <td> <a href="topnav_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
-                                <tr>
-                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>contact
+                                 <tr>
+                                    <td> Sri Vani Nilayam, Opp To Nizampet X Roads Plot No - 177, Sardar Patel Nagar, Hyderabad, Telangana 500090</td>
+                                    <td>Psaaket@gmail.com</td>
+                                    <td>8756349023</td>
+                                    <td>monday</td>
+									<td>Saturday</td>
+                                    <td>09:00
                                     </td>
-                                    <td>home</td>
-                                    <td>index .php</td>
-                                    <td>contact</td>
-									<td>contact .php</td>
-                                    <td>hyd
-                                    </td>
-                                    <td>87654 39034</td>
-                                    <td>psaak @gmail.com</td>
-									<td>Hyd</td>
-                                    <td>facebook
-									.com</td>
-									<td>linkedin .com</td>
-                                    <td>youtube .com
-                                    </td>
-                                    <td>gmail .com</td>
-                                    <td> <a href="contactus_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
-                                    
+                                    <td>07:00</td>
+                                    <td> <a href="topnav_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
-                                <tr>
-                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>contact
+                                 <tr>
+                                    <td> Sri Vani Nilayam, Opp To Nizampet X Roads Plot No - 177, Sardar Patel Nagar, Hyderabad, Telangana 500090</td>
+                                    <td>Psaaket@gmail.com</td>
+                                    <td>8756349023</td>
+                                    <td>monday</td>
+									<td>Saturday</td>
+                                    <td>09:00
                                     </td>
-                                    <td>home</td>
-                                    <td>index .php</td>
-                                    <td>contact</td>
-									<td>contact .php</td>
-                                    <td>hyd
-                                    </td>
-                                    <td>87654 39034</td>
-                                    <td>psaak @gmail.com</td>
-									<td>Hyd</td>
-                                    <td>facebook
-									.com</td>
-									<td>linkedin .com</td>
-                                    <td>youtube .com
-                                    </td>
-                                    <td>gmail .com</td>
-                                    <td> <a href="contactus_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
-                                    
+                                    <td>07:00</td>
+                                    <td> <a href="topnav_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
-                                <tr>
-                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>contact
+                                 <tr>
+                                    <td> Sri Vani Nilayam, Opp To Nizampet X Roads Plot No - 177, Sardar Patel Nagar, Hyderabad, Telangana 500090</td>
+                                    <td>Psaaket@gmail.com</td>
+                                    <td>8756349023</td>
+                                    <td>monday</td>
+									<td>Saturday</td>
+                                    <td>09:00
                                     </td>
-                                    <td>home</td>
-                                    <td>index .php</td>
-                                    <td>contact</td>
-									<td>contact .php</td>
-                                    <td>hyd
-                                    </td>
-                                    <td>87654 39034</td>
-                                    <td>psaak @gmail.com</td>
-									<td>Hyd</td>
-                                    <td>facebook
-									.com</td>
-									<td>linkedin .com</td>
-                                    <td>youtube .com
-                                    </td>
-                                    <td>gmail .com</td>
-                                    <td> <a href="contactus_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
-                                    
+                                    <td>07:00</td>
+                                    <td> <a href="topnav_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
-                                
-                           
                             </tbody>
                             <tfoot>
                                 <tr>
-                                     <tr>
-                                    <th>img</th>
-                                    <th>Title</th>
-                                    <th>Link Name1</th>
-                                    <th>Link url</th>
-									<th>Link Name2</th>
-                                    <th>Link url</th>
-                                    <th>add</th>
-                                    <th>No</th>
-                                    <th>Emailid</th>
-                                     <th>Location</th>
-                                    <th>FB link</th>
-                                    <th>LN link</th>
-                                    <th>YT link</th>
-                                    <th>G+ link</th>
+                                    <th>Address</th>
+                                    <th>Email id</th>
+                                    <th>Phone Number</th>
+                                    <th>Opening Hours From</th>
+									<th>Opening Hours To</th>
+                                    <th>Time From</th>
+                                    <th>Time To</th>
                                     <th>Action</th>
-                                </tr>
                                 </tr>
                             </tfoot>
                         </table>

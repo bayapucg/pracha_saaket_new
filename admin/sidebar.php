@@ -19,7 +19,7 @@
         <!-- Sidebar Menu -->
         <ul class="sidebar-menu" data-widget="tree">
             <li class="header">HEADER</li>
-            <li class="active"><a href="index.php"><i class="fa fa-link"></i> <span>Dashboard</span></a></li>
+            <li class="active"><a href="index.php"><i class="fa fa-tachometer"></i> <span>Dashboard</span></a></li>
 			<li class="treeview">
                 <a href="#">
                     <i class="fa fa-home" aria-hidden="true"></i> <span>Home</span>

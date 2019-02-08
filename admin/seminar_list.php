@@ -6,12 +6,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Courses Single List
+            Seminars List
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
-            <li><a href="courses_single.php">Courses Single</a></li>
-            <li class="active">Courses SIngle List</li>
+            <li><a href="seminar.php">Seminars</a></li>
+            <li class="active">Seminars List</li>
         </ol>
     </section>
 
@@ -33,10 +33,12 @@
                                     <th>Link url</th>
 									<th>Link Name2</th>
                                     <th>Link url</th>
+                                    <th>Head ing</th>
                                     <th>Image</th>
-                                    <th>Rat ing</th>
-                                    <th>Course</th>
-                                    <th>Instructor Image</th>
+                                    <th>date</th>
+                                    <th>title</th>
+                                    <th>Time From</th>
+                                    <th>Time To</th>
                                     <th>Instructor Name</th>
                                     <th>Regi ster ed</th>
                                     <th>Action</th>
@@ -51,13 +53,15 @@
                                     <td>index .php</td>
                                     <td>contact</td>
 									<td>contact .php</td>
+									<td>semi nar</td>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>5</td>
-                                    <td>java</td>
-                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
+                                    <td>28 jan 2019</td>
+                                    <td>semi nar</td>
+                                    <td>09:00</td>
+                                    <td>07:00</td>
 									<td>john</td>
                                     <td>34</td>
-                                    <td> <a href="coursessingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
+                                    <td> <a href="seminar_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
                                 <tr>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
@@ -67,15 +71,17 @@
                                     <td>index .php</td>
                                     <td>contact</td>
 									<td>contact .php</td>
+									<td>semi nar</td>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>5</td>
-                                    <td>java</td>
-                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
+                                    <td>28 jan 2019</td>
+                                    <td>semi nar</td>
+                                    <td>09:00</td>
+                                    <td>07:00</td>
 									<td>john</td>
                                     <td>34</td>
-                                    <td> <a href="coursessingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
+                                    <td> <a href="seminar_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
-                               <tr>
+                              <tr>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
                                     <td>contact
                                     </td>
@@ -83,13 +89,15 @@
                                     <td>index .php</td>
                                     <td>contact</td>
 									<td>contact .php</td>
+									<td>semi nar</td>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>5</td>
-                                    <td>java</td>
-                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
+                                    <td>28 jan 2019</td>
+                                    <td>semi nar</td>
+                                    <td>09:00</td>
+                                    <td>07:00</td>
 									<td>john</td>
                                     <td>34</td>
-                                    <td> <a href="coursessingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
+                                    <td> <a href="seminar_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
                                 <tr>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
@@ -99,27 +107,31 @@
                                     <td>index .php</td>
                                     <td>contact</td>
 									<td>contact .php</td>
+									<td>semi nar</td>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>5</td>
-                                    <td>java</td>
-                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
+                                    <td>28 jan 2019</td>
+                                    <td>semi nar</td>
+                                    <td>09:00</td>
+                                    <td>07:00</td>
 									<td>john</td>
                                     <td>34</td>
-                                    <td> <a href="coursessingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
+                                    <td> <a href="seminar_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
                             </tbody>
                             <tfoot>
                                 <tr>
-                                     <th>img</th>
+                                    <th>img</th>
                                     <th>Title</th>
                                     <th>Link Name1</th>
                                     <th>Link url</th>
 									<th>Link Name2</th>
                                     <th>Link url</th>
+                                    <th>Head ing</th>
                                     <th>Image</th>
-                                    <th>Rat ing</th>
-                                    <th>Course</th>
-                                    <th>Instructor Image</th>
+                                    <th>date</th>
+                                    <th>title</th>
+                                    <th>Time From</th>
+                                    <th>Time To</th>
                                     <th>Instructor Name</th>
                                     <th>Regi ster ed</th>
                                     <th>Action</th>

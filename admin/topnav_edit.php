@@ -10,7 +10,7 @@
             <!--<small>Preview</small>-->
         </h1>
         <ol class="breadcrumb">
-            <li><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="index.php"><i class="fa fa-home"></i> Home</a></li>
             <li><a href="top_nav.php">Top Nav</a></li>
             <li><a href="#">Edit</a></li>
         </ol>

@@ -10,7 +10,7 @@
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
-            <li><a href="Courses.php">Seminars</a></li>
+            <li><a href="seminar.php">Seminars</a></li>
             <li><a href="#">Edit</a></li>
 
         </ol>
@@ -26,7 +26,6 @@
 			<div class="box box-primary">
                     <div class="box-header with-border">
                         <h1 class="box-title pull-left">Seminars</h1>
-                        <a href="instructors_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
@@ -83,10 +82,11 @@
                                     <table id="myTable" class="table table-list">
                                         <thead>
                                             <tr>
-                                                <th>image</th>
-                                                <th>Rating</th>
-                                                <th>Course</th>
-												<th>Instuctor Image</th>
+                                               <th>image</th>
+                                                <th>Date</th>
+                                                <th>Title</th>
+												<th>Time From</th>
+												<th>Time To</th>
                                                 <th>Instuctor Name</th>
                                                 <th>Registered</th>
                                                 <!--<th>Action</th>-->
