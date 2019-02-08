@@ -11,7 +11,7 @@
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-home"></i> Home</a></li>
-             <li><a href="Curriculam.php">Curriculam</a></li>
+             <li><a href="curriculam.php">Curriculam</a></li>
             <li><a href="#">Edit</a></li>
         </ol>
     </section>

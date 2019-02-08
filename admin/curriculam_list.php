@@ -10,7 +10,7 @@
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
-            <li><a href="courses_single.php">Curriculam</a></li>
+            <li><a href="Curriculam.php">Curriculam</a></li>
             <li class="active">Curriculam List</li>
         </ol>
     </section>
@@ -41,7 +41,7 @@
                                     </td>
                                     <td>john</td>
                                     <td>Curriculam</td>
-                                    <td>28 jan 2019</td>
+                                    <td>09:00</td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
                                     <td> <a href="curriculam_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
@@ -50,7 +50,7 @@
                                     </td>
                                     <td>john</td>
                                     <td>Curriculam</td>
-                                    <td>28 jan 2019</td>
+                                    <td>09:00</td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
                                     <td> <a href="curriculam_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
@@ -59,7 +59,7 @@
                                     </td>
                                     <td>john</td>
                                     <td>Curriculam</td>
-                                    <td>28 jan 2019</td>
+                                    <td>09:00</td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
                                     <td> <a href="curriculam_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
@@ -68,7 +68,7 @@
                                     </td>
                                     <td>john</td>
                                     <td>Curriculam</td>
-                                    <td>28 jan 2019</td>
+                                    <td>09:00</td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
                                     <td> <a href="curriculam_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>

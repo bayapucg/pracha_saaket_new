@@ -38,7 +38,7 @@
                                     <th>Course</th>
                                     <th>Instructor Image</th>
                                     <th>Instructor Name</th>
-                                    <th>Regi ster ed</th>
+                                    <th>Cate gory</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
@@ -56,7 +56,7 @@
                                     <td>java</td>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
 									<td>john</td>
-                                    <td>34</td>
+                                    <td>educ tion</td>
                                     <td> <a href="coursessingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
                                 <tr>
@@ -72,7 +72,7 @@
                                     <td>java</td>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
 									<td>john</td>
-                                    <td>34</td>
+                                    <td>educ tion</td>
                                     <td> <a href="coursessingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
                                <tr>
@@ -88,7 +88,7 @@
                                     <td>java</td>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
 									<td>john</td>
-                                    <td>34</td>
+                                    <td>educ tion</td>
                                     <td> <a href="coursessingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
                                 <tr>
@@ -104,7 +104,7 @@
                                     <td>java</td>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
 									<td>john</td>
-                                    <td>34</td>
+                                    <td>educ tion</td>
                                     <td> <a href="coursessingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
                             </tbody>

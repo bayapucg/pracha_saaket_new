@@ -28,7 +28,7 @@
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
-                    <form role="form" action="courses.php" id="formValidate" name="formValidate">
+                    <form role="form" action="review.php" id="formValidate" name="formValidate">
                         <div class="box-body">
 						<div class="row">
 							<div class="col-lg-12">

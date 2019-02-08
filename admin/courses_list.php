@@ -28,10 +28,10 @@
                             <thead>
                                 <tr>
                                     <th>img</th>
-                                    <th>Title</th>
-                                    <th>Link Name1</th>
+                                    <th>Tit le</th>
+                                    <th>Link Nam e1</th>
                                     <th>Link url</th>
-									<th>Link Name2</th>
+									<th>Link Nam e2</th>
                                     <th>Link url</th>
                                     <th>Head ing</th>
                                     <th>Image</th>
@@ -46,11 +46,11 @@
                             <tbody>
                                 <tr>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>contact
+                                    <td>con tact
                                     </td>
                                     <td>home</td>
                                     <td>index .php</td>
-                                    <td>contact</td>
+                                    <td>cont act</td>
 									<td>contact .php</td>
                                     <td>inst ruct ors
                                     </td>
@@ -64,11 +64,11 @@
                                 </tr>
                                 <tr>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>contact
+                                    <td>cont act
                                     </td>
                                     <td>home</td>
                                     <td>index .php</td>
-                                    <td>contact</td>
+                                    <td>cont act</td>
 									<td>contact .php</td>
                                     <td>inst ruct ors
                                     </td>

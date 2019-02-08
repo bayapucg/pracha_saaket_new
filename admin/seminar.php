@@ -9,7 +9,7 @@
             Seminar
         </h1>
         <ol class="breadcrumb">
-            <li><a href="index.php"><i class="fa fa-dashboard"></i>Home</a></li>
+            <li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
             <li class="active">Seminar</li>
         </ol>
     </section>
@@ -28,7 +28,7 @@
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
-                    <form role="form" action="top_nav.php" id="formValidate" name="formValidate">
+                    <form role="form" action="seminar.php" id="formValidate" name="formValidate">
                         <div class="box-body">
 						<div class="row">
 						<div class="col-lg-6">
@@ -73,8 +73,6 @@
 							</div>
 							
 							</div>
-						<form id="" name="" action="" method="">
-                        <div class="box-body">
                             <div class="col-md-12">
 
                                 <div class="table-responsive">
@@ -104,16 +102,16 @@
                                                     <input type="text" class="form-control" name="bspecification" placeholder="Enter Title"/>
                                                 </td>
                                                <td>
-                                                    <input type="time" class="form-control" name="bfile" placeholder="Enter Instuctor "/ >
+                                                    <input type="time" class="form-control" name="bfile" placeholder=" "/ >
                                                 </td>
 												<td>
-                                                    <input type="time" class="form-control" name="bfile" placeholder="Enter Instuctor "/ >
+                                                    <input type="time" class="form-control" name="bfile" placeholder=" "/ >
                                                 </td>
                                                 <td>
-                                                    <input type="text" class="form-control" name="btext" placeholder="Enter Loaction"/>
+                                                    <input type="text" class="form-control" name="btext" placeholder="Enter Instryctor Name"/>
                                                 </td>
                                                 <td>
-                                                    <input type="text" class="form-control" name="bspecification" placeholder="Enter Content"/>
+                                                    <input type="text" class="form-control" name="bspecification" placeholder="Enter Registered"/>
                                                 </td>
                                                 <td>&nbsp;</td>
                                             </tr>
@@ -125,9 +123,7 @@
                                 <hr class="mb-10">
                                 
                             </div>
-                        </div>
-                    </form>
-                        
+               
                         </div>
                         <!-- /.box-body -->
 
@@ -136,60 +132,6 @@
                         </div>
                     </form>
                 </div>
-                <!--<div class="box box-primary">
-                    <div class="box-header with-border">
-                        <h5 class="box-title">Add Contacts</h5>
-                    </div>
-                    <!-- form start 
-                    <form id="" name="" action="" method="">
-                        <div class="box-body">
-                            <div class="col-md-12">
-
-                                <div class="table-responsive">
-                                    <table id="myTable" class="table table-list">
-                                        <thead>
-                                            <tr>
-                                                <th>Text</th>
-                                                <th>Email</th>
-                                                <th>Number</th>
-                                                <th>Select</th>
-                                                <th>&nbsp;</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <input type="text" class="form-control" name="btext" placeholder="Text"/>
-                                                </td>
-                                                <td>
-                                                    <input type="email" class="form-control" name="bemail" placeholder="Email"/>
-                                                </td>
-                                                <td>
-                                                    <input type="number" class="form-control" name="bnumber" placeholder="Number"/>
-                                                </td>
-                                                <td>
-                                                    <select name="bselect" class="form-control">
-                                                        <option value="" selected disabled>Select</option>
-                                                        <option value="1">Option 1</option>
-                                                        <option value="2">Option 2</option>
-                                                    </select>
-                                                </td>
-                                                <td>&nbsp;</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    <button type="button" class="btn btn-md" id="addRow">Add Row</button>
-
-                                </div>
-                                <hr class="mb-10">
-                                <div class="text-center">
-                                    <button type="submit" class="btn btn-md btn-success btn-flat">Add</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>-->
-
             </div>
 
         </div>
@@ -219,8 +161,8 @@
 
             cols += '<td><input type="time" class="form-control" placeholder="Enter Instuctor Name" name="bemail' + counter + '"/></td>';
 
-            cols += '<td><input type="text" class="form-control" placeholder="Enter Location" name="bnumber' + counter + '"/></td>'; 
-			cols += '<td><input type="text" class="form-control" placeholder="Enter Content" name="bnumber' + counter + '"/></td>';
+            cols += '<td><input type="text" class="form-control" placeholder="Enter Instuctor Name" name="bnumber' + counter + '"/></td>'; 
+			cols += '<td><input type="text" class="form-control" placeholder="Enter Registered" name="bnumber' + counter + '"/></td>';
           <!--  cols += '<td><select class="form-control" name="bselect' + counter + '"><option value="0" selected disabled>Select</option><option value="1">Option 1</option><option value="2">Option 2</option></select></td>';-->
 
             cols += '<td><button type="button" class="ibtnDel btn btn-md btn-danger"><i class="fa fa-trash"></i></button></td>';
