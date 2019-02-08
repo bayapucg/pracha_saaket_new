@@ -10,7 +10,8 @@
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
-            <li class="active">Seminars Single</li>
+             <li><a href="seminars_single.php">Seminar Single</a></li>
+            <li><a href="#">Edit</a></li>
         </ol>
     </section>
 
@@ -24,11 +25,10 @@
 			<div class="box box-primary">
                     <div class="box-header with-border">
                         <h1 class="box-title pull-left">Seminars</h1>
-                        <a href="seminarsingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
-                    <form role="form" action="courses.php" id="formValidate" name="formValidate">
+                    <form role="form" action="seminars_single.php" id="formValidate" name="formValidate">
                         <div class="box-body">
 						<div class="row">
 						<div class="col-lg-6">
@@ -40,7 +40,7 @@
 							<div class="col-lg-6">
                             <div class="form-group">
                                 <label for="exampleInputtitle">Title</label>
-                                <input type="text" class="form-control" id="exampleInputemailid" name="title" placeholder="Enter title">
+                                <input type="text" class="form-control" id="exampleInputemailid" name="title" placeholder="Enter title" value="seminar single">
                             </div> 
 							</div>
 							</div>
@@ -48,19 +48,19 @@
 						<div class="col-lg-6">
                             <div class="form-group">
                                 <label for="exampleInputbanner">Link Name1</label>
-                             <input type="text" class="form-control" id="exampleInputEmail1" name="text_linkname"placeholder="Enter linkName1">
+                             <input type="text" class="form-control" id="exampleInputEmail1" name="text_linkname"placeholder="Enter linkName1" value="seminar">
 								</div>
 								<div class="form-group">
-                                <input type="text" class="form-control" id="exampleInputemailid" name="text_link" placeholder="Enter Link">
+                                <input type="text" class="form-control" id="exampleInputemailid" name="text_link" placeholder="Enter Link" value="psaaket/seminar.php">
                             </div>
                             </div>
 							<div class="col-lg-6">
                             <div class="form-group">
                                 <label for="exampleInputbanner">Link Name2</label>
-                             <input type="text" class="form-control" id="exampleInputEmail1" name="text_linkname"placeholder="Enter linkName2">
+                             <input type="text" class="form-control" id="exampleInputEmail1" name="text_linkname"placeholder="Enter linkName2" value="edit">
 								</div>
 								<div class="form-group">
-                                <input type="text" class="form-control" id="exampleInputemailid" name="text_link" placeholder="Enter Link">
+                                <input type="text" class="form-control" id="exampleInputemailid" name="text_link" placeholder="Enter Link" value="psaaket/edit.php">
                             </div>
                             </div>
 							</div>

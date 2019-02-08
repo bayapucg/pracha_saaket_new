@@ -11,7 +11,8 @@
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-home"></i> Home</a></li>
-            <li><a href="#">Menu</a></li>
+            <li><a href="instuctor_single.php">Instructor Single</a></li>
+            <li><a href="#">Edit</a></li>
         </ol>
     </section>
 
@@ -23,8 +24,7 @@
                 <!-- general form elements -->
                 <div class="box box-primary">
                     <div class="box-header with-border">
-                        <h1 class="box-title pull-left">Menu</h1>
-                        <a href="instuctorsingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a>
+                        <h1 class="box-title pull-left">Instructor Single</h1>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->

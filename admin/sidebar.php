@@ -36,6 +36,10 @@
                     <li><a href="sliders_list.php"><i class="fa fa-circle-o"></i>Sliders List</a></li>
                     <li><a href="best_platform.php"><i class="fa fa-circle-o"></i>Best Platform</a></li>
                     <li><a href="bestplatform_list.php"><i class="fa fa-circle-o"></i>BestPlatform List</a></li>
+                    <li><a href="matter.php"><i class="fa fa-circle-o"></i>Matter About</a></li>
+                    <li><a href="matter_list.php"><i class="fa fa-circle-o"></i>Matterabout List</a></li>
+                    <li><a href="benifits.php"><i class="fa fa-circle-o"></i>Benifits</a></li>
+                    <li><a href="benifits_list.php"><i class="fa fa-circle-o"></i>Benifits List</a></li>
                 </ul>
             </li>
 			<li class="treeview">

@@ -6,12 +6,13 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-           Instructor Single
+           Benifits
             <!--<small>Preview</small>-->
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-home"></i> Home</a></li>
-            <li><a href="#">Instructor Single	</a></li>
+            <li><a href="benifits.php">Benifits</a></li>
+            <li><a href="#">Edit</a></li>
         </ol>
     </section>
 
@@ -23,12 +24,11 @@
                 <!-- general form elements -->
                 <div class="box box-primary">
                     <div class="box-header with-border">
-                        <h1 class="box-title pull-left">Instructor Single</h1>
-                        <a href="instuctorsingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a>
+                        <h1 class="box-title pull-left">Benifits</h1>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
-                    <form role="form" action="instuctor_single.php" id="formValidate" name="formValidate">
+                    <form role="form" action="benifits.php" id="formValidate" name="formValidate">
                         <div class="box-body">
                         <div class="box-body">
                             <div class="col-md-12">
@@ -37,28 +37,25 @@
                                     <table id="myTable" class="table table-list">
                                         <thead>
                                             <tr>
-                                                <th>Image</th>
-                                                <th>Name</th>
-                                                <th>Specification</th>
-                                                <th>Content</th>
+                                                <th>image</th>
+                                                <th>Heading</th>
+                                                <th>Paragraph</th>
                                                 <!--<th>Action</th>-->
                                                 <th>&nbsp;</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>
-                                                    <input type="file" class="form-control" name="btext" placeholder="Enter Title"/>
+											<td>
+                                                    <input type="file" class="form-control" name="btext" placeholder="Enter "/ >
                                                 </td>
                                                 <td>
-                                                    <input type="text" class="form-control" name="bspecification" placeholder="Enter Name"/>
+                                                    <input type="text" class="form-control" name="btext" placeholder="Enter Heading"/ value="heading">
                                                 </td>
-												<td>
-                                                    <input type="text" class="form-control" name="bspecification" placeholder="Enter Specification"/>
+                                                <td>
+                                                    <input type="text" class="form-control" name="bspecification" placeholder="Enter Paragraph"/ value="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...">
                                                 </td>
-												<td>
-                                                    <input type="text" class="form-control" name="bspecification" placeholder="Enter Content"/>
-                                                </td>
+                                              
                                                 <td>&nbsp;</td>
                                             </tr>
                                         </tbody>
@@ -213,11 +210,11 @@
             var newRow = $("<tr>");
             var cols = "";
 
-            cols += '<td><input type="file" class="form-control" placeholder="Enter Title" name="btext' + counter + '"/></td>';
+            cols += '<td><input type="text" class="form-control" placeholder="Enter Heading" name="btext' + counter + '"/></td>';
 
-            cols += '<td><input type="text" class="form-control" placeholder="Enter Name" name="bemail' + counter + '"/></td>';
-			cols += '<td><input type="text" class="form-control" placeholder="Enter Specification" name="bemail' + counter + '"/></td>';
-			cols += '<td><input type="text" class="form-control" placeholder="Enter Content" name="bemail' + counter + '"/></td>';
+            cols += '<td><input type="text" class="form-control" placeholder="Enter Paragraph" name="bemail' + counter + '"/></td>';
+
+           
           <!--  cols += '<td><select class="form-control" name="bselect' + counter + '"><option value="0" selected disabled>Select</option><option value="1">Option 1</option><option value="2">Option 2</option></select></td>';-->
 
             cols += '<td><button type="button" class="ibtnDel btn btn-md btn-danger"><i class="fa fa-trash"></i></button></td>';

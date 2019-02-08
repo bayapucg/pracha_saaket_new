@@ -6,12 +6,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Courses Single List
+            Instructor Single List
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
-            <li><a href="courses_single.php">Courses Single</a></li>
-            <li class="active">Courses SIngle List</li>
+            <li><a href="instuctor_single.php">Instructor Single</a></li>
+            <li class="active">Instructor SIngle List</li>
         </ol>
     </section>
 
@@ -27,101 +27,49 @@
                         <table id="example1" class="table table-bordered table-striped">
                             <thead>
                                 <tr>
-                                    <th>img</th>
-                                    <th>Title</th>
-                                    <th>Link Name1</th>
-                                    <th>Link url</th>
-									<th>Link Name2</th>
-                                    <th>Link url</th>
-                                    <th>Image</th>
-                                    <th>Rat ing</th>
-                                    <th>Course</th>
                                     <th>Instructor Image</th>
                                     <th>Instructor Name</th>
-                                    <th>Regi ster ed</th>
+                                    <th>Specification</th>
+                                    <th>Content</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>contact
-                                    </td>
-                                    <td>home</td>
-                                    <td>index .php</td>
-                                    <td>contact</td>
-									<td>contact .php</td>
-                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>5</td>
-                                    <td>java</td>
+									<td>john</td>
+                                    <td>java Specialist</td>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
+                                    <td> <a href="instuctorsingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
+                                </tr>
+                                 <tr>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
 									<td>john</td>
-                                    <td>34</td>
-                                    <td> <a href="coursessingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
+                                    <td>java Specialist</td>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
+                                    <td> <a href="instuctorsingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
                                 <tr>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>contact
-                                    </td>
-                                    <td>home</td>
-                                    <td>index .php</td>
-                                    <td>contact</td>
-									<td>contact .php</td>
-                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>5</td>
-                                    <td>java</td>
-                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
 									<td>john</td>
-                                    <td>34</td>
-                                    <td> <a href="coursessingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
+                                    <td>java Specialist</td>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
+                                    <td> <a href="instuctorsingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
-                               <tr>
-                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>contact
-                                    </td>
-                                    <td>home</td>
-                                    <td>index .php</td>
-                                    <td>contact</td>
-									<td>contact .php</td>
-                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>5</td>
-                                    <td>java</td>
+                                 <tr>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
 									<td>john</td>
-                                    <td>34</td>
-                                    <td> <a href="coursessingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
-                                </tr>
-                                <tr>
-                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>contact
-                                    </td>
-                                    <td>home</td>
-                                    <td>index .php</td>
-                                    <td>contact</td>
-									<td>contact .php</td>
-                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>5</td>
-                                    <td>java</td>
-                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-									<td>john</td>
-                                    <td>34</td>
-                                    <td> <a href="coursessingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
+                                    <td>java Specialist</td>
+                                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
+                                    <td> <a href="instuctorsingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
                             </tbody>
                             <tfoot>
                                 <tr>
-                                     <th>img</th>
-                                    <th>Title</th>
-                                    <th>Link Name1</th>
-                                    <th>Link url</th>
-									<th>Link Name2</th>
-                                    <th>Link url</th>
-                                    <th>Image</th>
-                                    <th>Rat ing</th>
-                                    <th>Course</th>
-                                    <th>Instructor Image</th>
+                                     <th>Instructor Image</th>
                                     <th>Instructor Name</th>
-                                    <th>Regi ster ed</th>
+                                    <th>Specification</th>
+                                    <th>Content</th>
                                     <th>Action</th>
                                 </tr>
                             </tfoot>
