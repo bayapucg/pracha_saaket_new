@@ -28,7 +28,7 @@
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
-                    <form role="form" action="top_nav.php" id="formValidate" name="formValidate">
+                    <form role="form" action="best_platform.php" id="formValidate" name="formValidate">
                         <div class="box-body">
                         <div class="box-body">
                             <div class="col-md-12">
@@ -39,7 +39,6 @@
                                             <tr>
                                                 <th>image</th>
                                                 <th>Heading</th>
-                                                <!--<th>Action</th>-->
                                                 <th>&nbsp;</th>
                                             </tr>
                                         </thead>
@@ -207,7 +206,7 @@
 
             cols += '<td><input type="file" class="form-control" placeholder="Enter Title" name="btext' + counter + '"/></td>';
 
-            cols += '<td><input type="text" class="form-control" placeholder="Enter Title" name="bemail' + counter + '"/></td>';
+            cols += '<td><input type="text" class="form-control" placeholder="Enter Heading" name="bemail' + counter + '"/></td>';
            
           <!--  cols += '<td><select class="form-control" name="bselect' + counter + '"><option value="0" selected disabled>Select</option><option value="1">Option 1</option><option value="2">Option 2</option></select></td>';-->
 

@@ -14,7 +14,7 @@
 	 
 <section class="content">
 	<!-- Default box -->
-	<div class="box box-primary">
+	<div class="box box-primary table-responsive">
 		<div class="box-header with-border">
 			<h3 class="box-title"></h3>
 		</div>
@@ -68,7 +68,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-2">
+				<div class="col-lg-3">
 					<div class="circle-tile ">
 						<a href="#">
 							<div class="circle-tile-heading green">

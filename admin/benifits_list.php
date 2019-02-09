@@ -28,7 +28,7 @@
                             <thead>
                                 <tr>
 								<th>Banner</th>
-                                                <th>Heading</th>
+                                   <th>Heading</th>
                                     <th>Image</th>
                                     <th>Heading</th>
                                     <th>Paragraph</th>
@@ -73,10 +73,13 @@
                             </tbody>
                             <tfoot>
                                 <tr>
-                                     <th>Image</th>
+                                     <th>Banner</th>
+                                   <th>Heading</th>
+                                    <th>Image</th>
                                     <th>Heading</th>
                                     <th>Paragraph</th>
                                     <th>Action</th>
+
                                 </tr>
                             </tfoot>
                         </table>

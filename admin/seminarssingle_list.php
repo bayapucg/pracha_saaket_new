@@ -21,7 +21,7 @@
         <div class="row">
 
             <div class="col-md-12">
-                <div class="box box-primary">
+                <div class="box box-primary table-responsive">
                     <!-- /.box-header -->
                     <div class="box-body">
                         <table id="example1" class="table table-bordered table-striped">
@@ -36,12 +36,12 @@
                                     <th>Image</th>
                                     <th>Date</th>
                                     <th>Course</th>
-                                    <th>Inst ruc tor Image</th>
-                                    <th>Inst ruc tor Name</th>
-                                    <th>Cate gory</th>
-                                    <th>Head ing</th>
-                                    <th>Para Grap h</th>
-                                    <th>Act ion</th>
+                                    <th>Instructor Image</th>
+                                    <th>Instructor Name</th>
+                                    <th>Category</th>
+                                    <th>Heading</th>
+                                    <th>ParaGraph</th>
+                                    <th>Action</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -50,16 +50,16 @@
                                     <td>contact
                                     </td>
                                     <td>home</td>
-                                    <td>index .php</td>
+                                    <td>index.php</td>
                                     <td>contact</td>
-									<td>contact .php</td>
+									<td>contact.php</td>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
                                     <td> 28 jan 2019</td>
                                     <td>java</td>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
 									<td>john</td>
-                                    <td>educ ation</td>
-                                    <td>Semi nor</td>
+                                    <td>education</td>
+                                    <td>Seminor</td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
                                     <td> <a href="seminarsingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
@@ -68,16 +68,16 @@
                                     <td>contact
                                     </td>
                                     <td>home</td>
-                                    <td>index .php</td>
+                                    <td>index.php</td>
                                     <td>contact</td>
-									<td>contact .php</td>
+									<td>contact.php</td>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
                                     <td> 28 jan 2019</td>
                                     <td>java</td>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
 									<td>john</td>
-                                    <td>educ ation</td>
-                                    <td>Semi nor</td>
+                                    <td>education</td>
+                                    <td>Seminor</td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
                                     <td> <a href="seminarsingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
@@ -86,16 +86,16 @@
                                     <td>contact
                                     </td>
                                     <td>home</td>
-                                    <td>index .php</td>
+                                    <td>index.php</td>
                                     <td>contact</td>
-									<td>contact .php</td>
+									<td>contact.php</td>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
                                     <td> 28 jan 2019</td>
                                     <td>java</td>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
 									<td>john</td>
-                                    <td>educ ation</td>
-                                    <td>Semi nor</td>
+                                    <td>education</td>
+                                    <td>Seminor</td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
                                     <td> <a href="seminarsingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
@@ -104,16 +104,16 @@
                                     <td>contact
                                     </td>
                                     <td>home</td>
-                                    <td>index .php</td>
+                                    <td>index.php</td>
                                     <td>contact</td>
-									<td>contact .php</td>
+									<td>contact.php</td>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
                                     <td> 28 jan 2019</td>
                                     <td>java</td>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
 									<td>john</td>
-                                    <td>educ ation</td>
-                                    <td>Semi nor</td>
+                                    <td>education</td>
+                                    <td>Seminor</td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ...</td>
                                     <td> <a href="seminarsingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
@@ -129,13 +129,12 @@
                                     <th>Image</th>
                                     <th>Date</th>
                                     <th>Course</th>
-									
-									<th>Inst ruc tor Image</th>
-                                    <th>Inst ruc tor Name</th>
-                                    <th>Cate gory</th>
-                                    <th>Head ing</th>
-                                    <th>Para Grap h</th>
-                                    <th>Act ion</th>
+									<th>Instructor Image</th>
+                                    <th>Instructor Name</th>
+                                    <th>Category</th>
+                                    <th>Heading</th>
+                                    <th>ParaGraph</th>
+                                    <th>Action</th>
                                 </tr>
                             </tfoot>
                         </table>

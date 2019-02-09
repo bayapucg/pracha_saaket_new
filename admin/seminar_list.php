@@ -21,7 +21,7 @@
         <div class="row">
 
             <div class="col-md-12">
-                <div class="box box-primary">
+                <div class="box box-primary table-responsive">
                     <!-- /.box-header -->
                     <div class="box-body">
                         <table id="example1" class="table table-bordered table-striped">
@@ -33,14 +33,14 @@
                                     <th>Link url</th>
 									<th>Link Name2</th>
                                     <th>Link url</th>
-                                    <th>Head ing</th>
+                                    <th>Heading</th>
                                     <th>Image</th>
                                     <th>date</th>
                                     <th>title</th>
                                     <th>Time From</th>
                                     <th>Time To</th>
                                     <th>Instructor Name</th>
-                                    <th>Regi ster ed</th>
+                                    <th>Registered</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
@@ -50,13 +50,13 @@
                                     <td>contact
                                     </td>
                                     <td>home</td>
-                                    <td>index .php</td>
+                                    <td>index.php</td>
                                     <td>contact</td>
-									<td>contact .php</td>
+									<td>contact.php</td>
 									<td>semi nar</td>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
                                     <td>28 jan 2019</td>
-                                    <td>semi nar</td>
+                                    <td>seminar</td>
                                     <td>09:00</td>
                                     <td>07:00</td>
 									<td>john</td>
@@ -68,13 +68,13 @@
                                     <td>contact
                                     </td>
                                     <td>home</td>
-                                    <td>index .php</td>
+                                    <td>index.php</td>
                                     <td>contact</td>
-									<td>contact .php</td>
+									<td>contact.php</td>
 									<td>semi nar</td>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
                                     <td>28 jan 2019</td>
-                                    <td>semi nar</td>
+                                    <td>seminar</td>
                                     <td>09:00</td>
                                     <td>07:00</td>
 									<td>john</td>
@@ -86,13 +86,13 @@
                                     <td>contact
                                     </td>
                                     <td>home</td>
-                                    <td>index .php</td>
+                                    <td>index.php</td>
                                     <td>contact</td>
-									<td>contact .php</td>
-									<td>semi nar</td>
+									<td>contact.php</td>
+									<td>seminar</td>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
                                     <td>28 jan 2019</td>
-                                    <td>semi nar</td>
+                                    <td>seminar</td>
                                     <td>09:00</td>
                                     <td>07:00</td>
 									<td>john</td>
@@ -104,13 +104,13 @@
                                     <td>contact
                                     </td>
                                     <td>home</td>
-                                    <td>index .php</td>
+                                    <td>index.php</td>
                                     <td>contact</td>
-									<td>contact .php</td>
+									<td>contact.php</td>
 									<td>semi nar</td>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
                                     <td>28 jan 2019</td>
-                                    <td>semi nar</td>
+                                    <td>seminar</td>
                                     <td>09:00</td>
                                     <td>07:00</td>
 									<td>john</td>
@@ -126,14 +126,14 @@
                                     <th>Link url</th>
 									<th>Link Name2</th>
                                     <th>Link url</th>
-                                    <th>Head ing</th>
+                                    <th>Heading</th>
                                     <th>Image</th>
                                     <th>date</th>
                                     <th>title</th>
                                     <th>Time From</th>
                                     <th>Time To</th>
                                     <th>Instructor Name</th>
-                                    <th>Regi ster ed</th>
+                                    <th>Registered</th>
                                     <th>Action</th>
                                 </tr>
                             </tfoot>

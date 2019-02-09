@@ -207,9 +207,7 @@
 
             cols += '<td><input type="file" class="form-control" placeholder="Enter Title" name="btext' + counter + '"/></td>';
 
-            cols += '<td><input type="text" class="form-control" placeholder="Enter Title" name="bemail' + counter + '"/></td>';
-           
-          <!--  cols += '<td><select class="form-control" name="bselect' + counter + '"><option value="0" selected disabled>Select</option><option value="1">Option 1</option><option value="2">Option 2</option></select></td>';-->
+            cols += '<td><input type="text" class="form-control" placeholder="Enter Heading" name="bemail' + counter + '"/></td>';
 
             cols += '<td><button type="button" class="ibtnDel btn btn-md btn-danger"><i class="fa fa-trash"></i></button></td>';
             

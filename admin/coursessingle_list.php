@@ -21,7 +21,7 @@
         <div class="row">
 
             <div class="col-md-12">
-                <div class="box box-primary">
+                <div class="box box-primary table-responsive">
                     <!-- /.box-header -->
                     <div class="box-body">
                         <table id="example1" class="table table-bordered table-striped">
@@ -48,9 +48,9 @@
                                     <td>contact
                                     </td>
                                     <td>home</td>
-                                    <td>index .php</td>
+                                    <td>index.php</td>
                                     <td>contact</td>
-									<td>contact .php</td>
+									<td>contact.php</td>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
                                     <td>5</td>
                                     <td>java</td>
@@ -64,9 +64,9 @@
                                     <td>contact
                                     </td>
                                     <td>home</td>
-                                    <td>index .php</td>
+                                    <td>index.php</td>
                                     <td>contact</td>
-									<td>contact .php</td>
+									<td>contact.php</td>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
                                     <td>5</td>
                                     <td>java</td>
@@ -80,9 +80,9 @@
                                     <td>contact
                                     </td>
                                     <td>home</td>
-                                    <td>index .php</td>
+                                    <td>index.php</td>
                                     <td>contact</td>
-									<td>contact .php</td>
+									<td>contact.php</td>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
                                     <td>5</td>
                                     <td>java</td>
@@ -96,9 +96,9 @@
                                     <td>contact
                                     </td>
                                     <td>home</td>
-                                    <td>index .php</td>
+                                    <td>index.php</td>
                                     <td>contact</td>
-									<td>contact .php</td>
+									<td>contact.php</td>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
                                     <td>5</td>
                                     <td>java</td>

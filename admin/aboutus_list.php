@@ -27,113 +27,113 @@
                         <table id="example1" class="table table-bordered table-striped">
                             <thead>
                                 <tr>
-                                    <th>img</th>
-                                    <th>Tit le</th>
-                                    <th>Link Nam e1</th>
+                                    <th>image</th>
+                                    <th>Title</th>
+                                    <th>Link Name1</th>
                                     <th>Link url</th>
-									<th>Link Nam e2</th>
+									<th>Link Name2</th>
                                     <th>Link url</th>
-                                    <th>Head ing</th>
-                                    <th>Para graph</th>
-                                    <th>ima ge</th>
-                                    <th>Choo se h eadi ng</th>
-                                    <th>choo se c onte nt</th>
-                                    <th>visi on</th>
-                                    <th>visi onc ont ant</th>
-									<th>miss ion</th>
-                                    <th>miss ion cont ant</th>
+                                    <th>Heading</th>
+                                    <th>Paragraph</th>
+                                    <th>image</th>
+                                    <th>Choose heading</th>
+                                    <th>choose content</th>
+                                    <th>vision</th>
+                                    <th>vision contant</th>
+									<th>mission</th>
+                                    <th>mission contant</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>con tact
+                                    <td>contact
                                     </td>
-                                    <td>ho me</td>
-                                    <td>index .php</td>
+                                    <td>home</td>
+                                    <td>index.php</td>
                                     <td>contact</td>
-									<td>contact .php</td>
-                                    <td>instr uctors
+									<td>contact.php</td>
+                                    <td>instructors
                                     </td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
 									<td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>instr uctors
+                                    <td>instructors
                                     </td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
-									<td>instr uctors
+									<td>instructors
                                     </td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
-									<td>instr uctors
+									<td>instructors
                                     </td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
                                     <td> <a href="aboutus_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
                                   <tr>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>con tact
+                                    <td>contact
                                     </td>
-                                    <td>ho me</td>
-                                    <td>index .php</td>
+                                    <td>home</td>
+                                    <td>index.php</td>
                                     <td>contact</td>
-									<td>contact .php</td>
-                                    <td>instr uctors
+									<td>contact.php</td>
+                                    <td>instructors
                                     </td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
 									<td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>instr uctors
+                                    <td>instructors
                                     </td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
-									<td>instr uctors
+									<td>instructors
                                     </td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
-									<td>instr uctors
+									<td>instructors
                                     </td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
                                     <td> <a href="aboutus_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
                                 <tr>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>con tact
+                                    <td>contact
                                     </td>
-                                    <td>ho me</td>
-                                    <td>index .php</td>
+                                    <td>home</td>
+                                    <td>index.php</td>
                                     <td>contact</td>
-									<td>contact .php</td>
-                                    <td>instr uctors
+									<td>contact.php</td>
+                                    <td>instructors
                                     </td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
 									<td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>instr uctors
+                                    <td>instructors
                                     </td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
-									<td>instr uctors
+									<td>instructors
                                     </td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
-									<td>instr uctors
+									<td>instructors
                                     </td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
                                     <td> <a href="aboutus_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                 </tr>
                                  <tr>
                                     <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>con tact
+                                    <td>contact
                                     </td>
-                                    <td>ho me</td>
-                                    <td>index .php</td>
+                                    <td>home</td>
+                                    <td>index.php</td>
                                     <td>contact</td>
-									<td>contact .php</td>
-                                    <td>instr uctors
+									<td>contact.php</td>
+                                    <td>instructors
                                     </td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
 									<td><img src="img/list.jpg" style="width:40px;height:50px"></td>
-                                    <td>instr uctors
+                                    <td>instructors
                                     </td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
-									<td>instr uctors
+									<td>instructors
                                     </td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
-									<td>instr uctors
+									<td>instructors
                                     </td>
                                     <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
                                     <td> <a href="aboutus_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
@@ -141,21 +141,21 @@
                             </tbody>
                             <tfoot>
                                 <tr>
-                                    <th>img</th>
-                                    <th>Tit le</th>
-                                    <th>Link Nam e1</th>
+                                    <th>image</th>
+                                    <th>Title</th>
+                                    <th>Link Name1</th>
                                     <th>Link url</th>
-									<th>Link Nam e2</th>
+									<th>Link Name2</th>
                                     <th>Link url</th>
-                                    <th>Head ing</th>
-                                    <th>Para graph</th>
-                                    <th>ima ge</th>
-                                    <th>Choo se h eadi ng</th>
-                                    <th>choo se c onte nt</th>
-                                    <th>visi on</th>
-                                    <th>visi onc ont ant</th>
-									<th>miss ion</th>
-                                    <th>miss ion cont ant</th>
+                                    <th>Heading</th>
+                                    <th>Paragraph</th>
+                                    <th>image</th>
+                                    <th>Choose heading</th>
+                                    <th>choose content</th>
+                                    <th>vision</th>
+                                    <th>vision contant</th>
+									<th>mission</th>
+                                    <th>mission contant</th>
                                     <th>Action</th>
                                 </tr>
                             </tfoot>
