@@ -20,8 +20,8 @@
 
         <div class="row">
 
-            <div class="col-md-12">
-                <div class="box box-primary">
+            <div class="col-md-12 ">
+                <div class="box box-primary table-responsive">
                     <!-- /.box-header -->
                     <div class="box-body">
                         <table id="example1" class="table table-bordered table-striped">

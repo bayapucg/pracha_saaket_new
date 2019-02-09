@@ -20,7 +20,7 @@
 
         <div class="row">
 
-            <div class="col-md-12">
+            <div class="col-md-12 table-responsive">
                 <div class="box box-primary">
                     <!-- /.box-header -->
                     <div class="box-body">

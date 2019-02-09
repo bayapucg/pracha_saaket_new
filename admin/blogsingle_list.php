@@ -21,7 +21,7 @@
         <div class="row">
 
             <div class="col-md-12">
-                <div class="box box-primary">
+                <div class="box box-primary table-responsive">
                     <!-- /.box-header -->
                     <div class="box-body">
                         <table id="example1" class="table table-bordered table-striped">
@@ -173,7 +173,6 @@
                                     <th>FB link</th>
                                     <th>LN link</th>
                                     <th>YT link</th>
-                                    <th>G+ link</th>
                                     <th>G+ link</th>
                                     <th>Act
 									ion</th>
