@@ -27,39 +27,35 @@
                         <table id="example1" class="table table-bordered table-striped">
                             <thead>
                                 <tr>
-                                    <th>im g</th>
-                                    <th>Tit le</th>
-                                    <th>Link Nam
-									e1</th>
+                                    <th>image</th>
+                                    <th>Title</th>
+                                    <th>Link Name1</th>
                                     <th>Link url</th>
-									<th>Link Na
-									me2</th>
+									<th>Link Name2</th>
                                     <th>Link url</th>
-                                    <th>Im g</th>
-                                    <th>Hea din g</th>
+                                    <th>Image</th>
+                                    <th>Heading</th>
                                     <th>Date</th>
-                                    <th>In st uc to
-									rN am e</th>
-                                    <th>Cate gory</th>
-                                    <th>Para graph</th>
-                                    <th>FB link</th>
-                                    <th>LN link</th>
-                                    <th>YT link</th>
-                                    <th>G+ link</th>
-                                    <th>Act
-									ion</th>
+                                    <th>Instuctor Name</th>
+                                    <th>Category</th>
+                                    <th>Paragraph</th>
+                                    <th>Facebook link</th>
+                                    <th>Linkedin link</th>
+                                    <th>Youtube link</th>
+                                    <th>Google plus link</th>
+                                    <th>Action</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><img src="img/list.jpg" style="width:10px;height:50px"></td>
+                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
                                     <td>cont act
                                     </td>
                                     <td>home</td>
                                     <td>index .php</td>
                                     <td>contact</td>
 									<td>contact .php</td>
-                                    <td><img src="img/list.jpg" style="width:10px;height:50px">
+                                    <td><img src="img/list.jpg" style="width:40px;height:50px">
                                     </td>
                                     <td>blog</td>
                                     <td>23 january 2019</td>
@@ -76,76 +72,74 @@
                                     
                                 </tr>
                                 <tr>
-                                    <td><img src="img/list.jpg" style="width:10px;height:50px"></td>
-                                   <td>cont act
+                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
+                                   <td>contact
                                     </td>
                                     <td>home</td>
-                                    <td>index .php</td>
-                                    <td>cont act</td>
-									<td>contact .php</td>
-                                    <td><img src="img/list.jpg" style="width:10px;height:50px">
+                                    <td>index.php</td>
+                                    <td>contact</td>
+									<td>contact.php</td>
+                                    <td><img src="img/list.jpg" style="width:40px;height:50px">
                                     </td>
                                     <td>blog</td>
                                     <td>23 january 2019</td>
 									<td>john</td>
-                                    <td>busi ness</td>
+                                    <td>business</td>
 									<td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
-                                    <td>face book
-									.com</td>
-									<td>link edin .com</td>
-                                    <td>you tube .com
+                                    <td>facebook.com</td>
+									<td>linkedin.com</td>
+                                    <td>youtube.com
                                     </td>
-                                    <td>gmai l .com</td>
+                                    <td>gmail.com</td>
                                     <td> <a href="blogsingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                     
                                     
                                 </tr>
                                 <tr>
-                                    <td><img src="img/list.jpg" style="width:10px;height:50px"></td>
-                                   <td>cont act
+                                    <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
+                                   <td>contact
                                     </td>
                                     <td>home</td>
-                                    <td>index .php</td>
-                                    <td>cont act</td>
-									<td>contact .php</td>
-                                    <td><img src="img/list.jpg" style="width:10px;height:50px">
+                                    <td>index.php</td>
+                                    <td>contact</td>
+									<td>contact.php</td>
+                                    <td><img src="img/list.jpg" style="width:40px;height:50px">
                                     </td>
                                     <td>blog</td>
                                     <td>23 january 2019</td>
 									<td>john</td>
-                                    <td>busi ness</td>
+                                    <td>business</td>
 									<td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
                                    <td>face book
 									.com</td>
-									<td>link edin .com</td>
-                                    <td>you tube .com
+									<td>linkedin.com</td>
+                                    <td>youtube.com
                                     </td>
-                                    <td>gma il .com</td>
+                                    <td>gmail.com</td>
                                     <td> <a href="blogsingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                     
                                     
                                 </tr>
                                 <tr>
-                                  <td><img src="img/list.jpg" style="width:10px;height:50px"></td>
-                                    <td>cont act
+                                  <td><img src="img/list.jpg" style="width:40px;height:50px"></td>
+                                    <td>contact
                                     </td>
                                     <td>home</td>
-                                    <td>index .php</td>
-                                    <td>cont act</td>
-									<td>contact .php</td>
-                                    <td><img src="img/list.jpg" style="width:10px;height:50px">
+                                    <td>index.php</td>
+                                    <td>contact</td>
+									<td>contact.php</td>
+                                    <td><img src="img/list.jpg" style="width:40px;height:50px">
                                     </td>
                                     <td>blog</td>
                                     <td>23 january 2019</td>
 									<td>john</td>
-                                    <td>busi ness</td>
+                                    <td>business</td>
 									<td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </td>
-                                   <td>face book
-									.com</td>
-									<td>link edin .com</td>
-                                    <td>you tube .com
+                                   <td>facebook.com</td>
+									<td>linkedin.com</td>
+                                    <td>youtube.com
                                     </td>
-                                    <td>gma il .com</td>
+                                    <td>gmail.com</td>
                                     <td> <a href="blogsingle_edit.php"><button type="button" class="btn btn-warning pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></td>
                                     
                                     
@@ -155,27 +149,23 @@
                             </tbody>
                             <tfoot>
                                 <tr>
-                                    <th>im g</th>
-                                    <th>Tit le</th>
-                                    <th>Link Nam
-									e1</th>
+                                    <th>image</th>
+                                    <th>Title</th>
+                                    <th>Link Name1</th>
                                     <th>Link url</th>
-									<th>Link Na
-									me2</th>
+									<th>Link Name2</th>
                                     <th>Link url</th>
-                                    <th>Im g</th>
-                                    <th>Hea din g</th>
+                                    <th>Image</th>
+                                    <th>Heading</th>
                                     <th>Date</th>
-                                    <th>In st uc to
-									rN am e</th>
-                                    <th>Cate gory</th>
-                                    <th>Para graph</th>
-                                    <th>FB link</th>
-                                    <th>LN link</th>
-                                    <th>YT link</th>
-                                    <th>G+ link</th>
-                                    <th>Act
-									ion</th>
+                                    <th>Instuctor Name</th>
+                                    <th>Category</th>
+                                    <th>Paragraph</th>
+                                    <th>Facebook link</th>
+                                    <th>Linkedin link</th>
+                                    <th>Youtube link</th>
+                                    <th>Google plus link</th>
+                                    <th>Action</th>
                                 </tr>
                             </tfoot>
                         </table>

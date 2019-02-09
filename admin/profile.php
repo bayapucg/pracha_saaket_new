@@ -1,50 +1,36 @@
-<?php include("header.php"); ?>
+<?php include('header.php'); ?>
 <?php include('sidebar.php'); ?>
-<style>
-#pic{
-     display: none;
-       }
-       
- .newbtn{
-         cursor: pointer;
-      }
-      #blah{
-  max-width:100px;
-  height:100px;
-  margin-top:20px;
-}
 
-</style>
-
-<div class="content-wrapper">
+<div class="content-wrapper" style="min-height: 1126px;">
     <!-- Content Header (Page header) -->
     <section class="content-header">
-      <h1>
-        Profile
-       
-      </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i>Home</a></li>
-        <li class="active">Profile</li>
-      </ol>
+        <h1>
+            Profile
+            <!--<small>Preview</small>-->
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="index.php"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="#">Profile</a></li>
+        </ol>
     </section>
 
-    <section class="content">
-     
-     <div class="">
-      <div class="row">
-     
-        <div class="col-md-12">
-   
-   
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title pull-left">Customer 1</h3>
-			  <span class="pull-right"><a href="update-profile.php" class="btn btn-primary btn-sm">Update / Edit</a></span>
-			  <div class="clearfix">&nbsp;</div>
-            </div>
-            <div class="panel-body">
-              <div class="row">
+ 
+	 
+<section class="content">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-md-12">
+                <!-- general form elements -->
+                <div class="box box-primary">
+                    <div class="box-header with-border">
+                        <h1 class="box-title pull-left">Profile</h1>
+                        <a href="aboutus_edit.php"><button type="button" class="btn btn-primary pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Update/Edit</button></a>
+                    </div>
+                    <!-- /.box-header -->
+                    <!-- form start -->
+                    <form role="form" action="profile.php" id="formValidate" name="formValidate">
+                        <div class="box-body">
+						<div class="row">
                 <div class="col-md-3 col-lg-3 " align="center"> 
 				<div>
 				<label class=newbtn>
@@ -85,39 +71,31 @@
                
                 </div>
               </div>
+							
+							
+							</div>
+							
+                        <!-- /.box-body -->
+
+                        <div class="box-footer">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- /.box -->
+
+
+               
+                <!-- /.box -->
+
             </div>
-                
+            <!--/.col (left) -->
+            <!-- right column -->
             
-          </div>
+            <!--/.col (right) -->
         </div>
-      </div>
-    </div>
-
-     
-
-      
+        <!-- /.row -->
     </section>
-    <!-- /.content -->
-  </div>
-  <!-- /.content-wrapper -->
-<?php include("footer.php"); ?>
-<script>
- 
- $('.newbtn').bind("click" , function () {
-        $('#pic').click();
- });
- 
-  function readURL(input) {
-            if (input.files && input.files[0]) {
-                var reader = new FileReader();
+</div>
 
-                reader.onload = function (e) {
-                    $('#blah')
-                        .attr('src', e.target.result);
-                };
-
-                reader.readAsDataURL(input.files[0]);
-            }
-        }
-</script>
- 
+<?php include('footer.php'); ?>

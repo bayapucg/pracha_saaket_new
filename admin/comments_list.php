@@ -21,14 +21,14 @@
         <div class="row">
 
             <div class="col-md-12">
-                <div class="box box-primary">
+                <div class="box box-primary table-responsive">
                     <!-- /.box-header -->
                     <div class="box-body">
                         <table id="example1" class="table table-bordered table-striped">
                             <thead>
                                 <tr>
                                     <th>Title</th>
-                                    <th>img</th>
+                                    <th>image</th>
                                     <th>Name</th>
                                     <th>Date</th>
 									<th>Paragraph</th>
@@ -77,7 +77,7 @@
                             <tfoot>
                                 <tr>
                                      <th>Title</th>
-                                    <th>img</th>
+                                    <th>image</th>
                                     <th>Name</th>
                                     <th>Date</th>
 									<th>Paragraph</th>
