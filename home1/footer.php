@@ -11,7 +11,7 @@
 									<img src="img/logo.png" alt="Logo" height="80px">
 								</a>
                             </div>
-                            <p>Gravida nibh vel velit auctor aliquetn quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate.</p>
+                            <p>Plot No. 177, Sri Vani Nilayam, 1st floor, Beside Sri Chaitanya High School, Sardar Patel Nagar, Opp Nizampet X-Road, Hyderabad,Telangana - 500072</p>
                             <ul class="mt-20">
                                 <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -27,14 +27,26 @@
                             </div>
                             <ul>
                                 <li><a href="index.php"><i class="fa fa-angle-right"></i>Home</a></li>
-                                <li><a href="about.php"><i class="fa fa-angle-right"></i>About us</a></li>
-                                <li><a href="courses.php"><i class="fa fa-angle-right"></i>Courses</a></li>
-                                <li><a href="seminars.php"><i class="fa fa-angle-right"></i>Seminars</a></li>
+                                <li><a href="index.php#about-part"><i class="fa fa-angle-right"></i>About us</a></li>
+								<li><a href="training.php"><i class="fa fa-angle-right"></i>Training </a></li>
+                             <li class="nav-item">
+                                        <a href="index.php#why-section"><i class="fa fa-angle-right"></i>Why Us?</a>
+                                    </li>
+                                 
+                                   
                             </ul>
                             <ul>
-                                <li><a href="instructors.php"><i class="fa fa-angle-right"></i>Instructors</a></li>
-                                <li><a href="seminars.php"><i class="fa fa-angle-right"></i>Events</a></li>
-                                <li><a href="blog.php"><i class="fa fa-angle-right"></i>Blog</a></li>
+							   <li class="nav-item">
+                                        <a href="index.php#why-help-to-section"><i class="fa fa-angle-right"></i>We Help to!</a>
+                                    </li>
+							 <li class="nav-item">
+                                        <a href="index.php#about-part"><i class="fa fa-angle-right"></i>Upcoming work</a>
+                                       
+                                    </li> 
+									<li class="nav-item">
+                                        <a href="index.php#instructors-pannel-section"><i class="fa fa-angle-right"></i>Instructor panel</a>
+                                    </li>
+                               
                                 <li><a href="contact.php"><i class="fa fa-angle-right"></i>Contact</a></li>
                             </ul>
                         </div> <!-- footer link -->

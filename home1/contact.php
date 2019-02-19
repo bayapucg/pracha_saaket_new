@@ -81,7 +81,7 @@
                                         <i class="fa fa-home"></i>
                                     </div>
                                     <div class="cont">
-                                        <p>143 castle road 517 district, kiyev port south Canada</p>
+                                        <p>1Plot No. 177, Sri Vani Nilayam, 1st floor, Beside Sri Chaitanya High School, Sardar Patel Nagar, Opp Nizampet X-Road, Hyderabad,Telangana - 500072</p>
                                     </div>
                                 </div> <!-- singel address -->
                             </li>
@@ -91,8 +91,8 @@
                                         <i class="fa fa-phone"></i>
                                     </div>
                                     <div class="cont">
-                                        <p>+3 123 456 789</p>
-                                        <p>+1 222 345 342</p>
+                                        <p>040-48541273</p>
+                                      
                                     </div>
                                 </div> <!-- singel address -->
                             </li>
@@ -102,8 +102,8 @@
                                         <i class="fa fa-envelope-o"></i>
                                     </div>
                                     <div class="cont">
-                                        <p>example@gmail.com</p>
-                                        <p>example@gmail.com</p>
+                                        <p>info@psaaket.com</p>
+                                        <p>support@psaaket.com</p>
                                     </div>
                                 </div> <!-- singel address -->
                             </li>

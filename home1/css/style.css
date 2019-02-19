@@ -1,53 +1,3 @@
-/*
-  Theme Name: Edubin - LMS Education HTML Template
-  Author: ZeTheme
-  Author URL: https://themeforest.net/user/pixelcurve
-  Support: zetheme24@gmail.com
-  Description: Creative  HTML5 template.
-  Version: 1.1
-*/
-
-/* CSS Index 
------------------------------------
-1. Theme default
-2. HEADER
-3. SLIDER
-4. CATEGORY
-5. ABOUT
-6. APPLY
-7. COURSE
-8. VIDEO FEATURES
-9. TEACHERS
-10. PUBLICATION
-11. TEASTIMONIAL
-12. NEWS
-13. FOOTER
-14. CATEGORY 2
-15. COURSE 2
-16. COUNTER
-17. TEACHERS 2
-18. EVENT 2
-19. COUNT DOWN
-20. PAGE BANNER
-21. ABOUT PAGE
-22. COURSES PAGE
-23. COURSE SINGEl PAGE
-24. EVENT PAGE
-25. EVENT SINGEL PAGE
-26. TEACHERS SInGEL PAGE
-27. BLOG PAGE
-28. BLOG SINGEL PAGE
-29. SHOP PAGE
-30. SHOP SINGEL PAGE
-31. CONTACT PAGE 
-32. LOGIN/REGISTER MODAL
-
-*/
-
-
-/*===========================
-    1. Theme default css 
-===========================*/
 
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Roboto:300,400,500,700');
@@ -525,7 +475,7 @@ p {
 
 .navigation .navbar .navbar-nav{}
 .navigation .navbar .navbar-nav li{
-    margin-right: 40px;
+    margin-right: 25px;
     position: relative;
 }
 .navigation .navbar .navbar-nav li:last-child{
@@ -533,7 +483,7 @@ p {
 }
 
 .navigation .navbar .navbar-nav li a{
-    font-size: 14px;
+    font-size: 11px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #07294d;
@@ -575,7 +525,7 @@ p {
     border-bottom: 1px solid rgba(255, 198, 0, 0.5);
     color: #fff;
 }
-.navigation .navbar .navbar-nav li .sub-menu li a.active,
+	.sub-menu li a.active,
 .navigation .navbar .navbar-nav li .sub-menu li a:hover{
     padding-left: 20px;
     color: #ffc600;
@@ -1090,13 +1040,14 @@ p {
 .about-event{
     -webkit-box-shadow: 0px 0px 191px 0px rgba(0,0,0,0.06);
     box-shadow: 0px 0px 191px 0px rgba(0,0,0,0.06);
-    padding: 65px 70px 37px;
+    padding: 30px;
     background-color: rgba(255, 255, 255, 0.95);
 }
 .about-event .event-title h3{
-    font-size: 36px;
+    font-size: 28px;
     color: #000;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
+	
 }
 .about-event ul li .singel-event{
     padding: 25px 0;
@@ -2532,7 +2483,7 @@ p {
 .corses-tab .nav{}
 .corses-tab .nav .nav-item{}
 .corses-tab .nav .nav-item a {
-	font-size: 16px;
+	font-size: 12px;
 	color: #24486e;
 	font-weight: 600;
 	font-family: 'Montserrat', sans-serif;
@@ -4238,4 +4189,434 @@ p.form-message.error {
     padding: 0 14px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+
+/* TABS IN MCI START */
+.mci-tabs{
+	display:block !important;
+}
+.mci-tabs a{
+	width:100%;
+	color:#fff;
+}
+.tab-active{
+		margin:5px 0px;
+	background:#07294d !important;
+	padding:5px 10px;
+	color:#fff;
+}
+.mci-tabs li{
+	margin:5px ;
+	background:#ddd;
+	padding:10px 10px;
+	width:32%;
+	float:left;
+	text-align:center;
+}
+.mci-tabs li:hover{
+	margin:5px ;
+	background:#07294d;
+	padding:10px 10px;
+	color:#fff;
+}
+
+/* TABS IN MCI END */
+.header-style h1 {
+    color: #ffffff;
+    font-weight: 600;
+    margin: auto;
+    font-size: 50px;
+}
+
+.header-style ul {
+    display: inline-block;
+    list-style: none;
+}
+
+.header-style ul li {
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+}
+
+.header-style ul li:after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    right: -18px;
+    width: 3px;
+    height: 15px;
+    background-color: #fff;
+}
+
+.header-style ul li:last-child:after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    right: -18px;
+    width: 0px;
+    height: 0px;
+    background-color: #fff;
+}
+.section-heading {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.section-heading h2 {
+  margin-top: 0;
+  margin-bottom: 7px;
+  text-transform: uppercase;
+  color: #383634;
+  font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+  .section-heading h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .section-heading h2 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section-heading h2 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .section-heading h2 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .section-heading h2 {
+    font-size: 15px;
+  }
+}
+.section-heading h2 span {
+  color: #ff9800;
+}
+.section-heading h2 span:after {
+  display: none;
+}
+.section-heading h2 span:before {
+  display: none;
+}
+.section-heading span {
+  position: relative;
+  /* width: 40px; */
+  margin: 0 auto;
+}
+.section-heading span img {
+  width: 40px;
+  height: 40px;
+}
+.section-heading span:before {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+  width: 110px;
+  height: 2px;
+  background-color: #383634;
+}
+.section-heading span:after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  right: 50px;
+  width: 110px;
+  height: 2px;
+  background-color: #383634;
+}
+.section-heading p {
+  margin: 0 auto;
+  margin-top: 16px;
+  font-weight: 400;
+  max-width: 950px;
+  line-height: 24px;
+  font-size: 16px;
+  color: #737271;
+  text-align: center;
+}
+.section-heading .join-button {
+  margin-top: 48px;
+}
+.section-heading .join-button a {
+  background-color: #383634;
+  padding: 10px 27px;
+  text-transform: uppercase;
+  -webkit-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+}
+.section-heading .join-button a:hover {
+  background-color: #ff9800;
+}
+.section-heading1 {
+  margin: 0;
+  text-align: left;
+  padding-bottom: 57px;
+}
+.section-heading1 h2 {
+  margin-left: 35px;
+}
+@media screen and (max-width: 360px) {
+  .section-heading1 h2 {
+    text-align: center;
+    font-size: 17px;
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .section-heading1 h2 {
+    margin-left: 0px;
+    text-align: center;
+  }
+}
+.section-heading1 h2 span {
+  margin-left: 0px;
+  display: inline-block;
+  color: #ff9800;
+}
+.section-heading1 h2 span:after {
+  display: none;
+}
+.section-heading1 h2 span:before {
+  display: none;
+}
+.section-heading1 span {
+  position: relative;
+  width: 40px;
+  margin-left: 150px;
+  display: block;
+}
+.section-heading1 span:before {
+  content: "";
+  position: absolute;
+  bottom: 12px;
+  left: 37px;
+  width: 110px;
+  height: 2px;
+  background-color: #383634;
+}
+@media screen and (max-width: 320px) {
+  .section-heading1 span:before {
+    width: 90px;
+  }
+}
+.section-heading1 span:after {
+  content: "";
+  position: absolute;
+  bottom: 12px;
+  right: 50px;
+  width: 110px;
+  height: 2px;
+  background-color: #383634;
+}
+@media screen and (max-width: 320px) {
+  .section-heading1 span:after {
+    width: 90px;
+  }
+}
+.section-heading1 p {
+  max-width: 500px;
+  display: inline-block;
+  margin-left: 30px;
+  text-align: left;
+}
+@media screen and (max-width: 320px) {
+  .section-heading1 p {
+    margin-bottom: 20px;
+  }
+}
+.section-heading1 a {
+  float: right;
+  background-color: transparent;
+  border-bottom: 2px solid #ff9800;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-weight: 600;
+  color: #737271;
+  padding: 0px;
+}
+@media screen and (max-width: 360px) {
+  .section-heading1 a {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .section-heading1 a {
+    float: none;
+    text-align: center;
+    margin-left: 30px;
+  }
+}
+.why-section .singel-event-list{
+	min-height:270px;
+}
+.we-help-to .singel-event-list{
+	
+	background:#f5f5f5;
+	min-height:340px;
+	border-radius:50px 0px;
+}
+
+
+.faq-section-style .panel-default{
+	margin-top:10px;
+	border:1px solid #ddd;
+}
+.faq-section-style .panel-body{
+	padding:10px;
+}
+.faq-section-style .panel-title{
+	font-size:18px;
+}
+.panel-default>.panel-heading {
+  color: #333;
+  background-color: #fff;
+  border-color: #e4e5e7;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.panel-default>.panel-heading a {
+  display: block;
+  padding: 10px 15px;
+}
+
+.panel-default>.panel-heading a:after {
+  content: "";
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  float: right;
+  transition: transform .25s linear;
+  -webkit-transition: -webkit-transform .25s linear;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"] {
+  background-color: #eee;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"]:after {
+  content: "\2212";
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.panel-default>.panel-heading a[aria-expanded="false"]:after {
+  content: "\002b";
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.accordion-option {
+  width: 100%;
+  float: left;
+  clear: both;
+  margin: 15px 0;
+}
+
+.accordion-option .title {
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.accordion-option .toggle-accordion {
+  float: right;
+  font-size: 16px;
+  color: #6a6c6f;
+}
+
+.accordion-option .toggle-accordion:before {
+  content: "Expand All";
+}
+
+.accordion-option .toggle-accordion.active:before {
+  content: "Collapse All";
+}
+.banner-cource	a{
+	color:#07294d;
+}
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #ff9800;
+    display: inline-block;
+    position: absolute;
+    /* left: 29px; */
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #25346c;
+    left: -10px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+
+
+
+.training-methodology li{
+	font-size:18px;
+	line-height:25px;
+	list-style-type:disc;
+	margin-top:5px;
+	
+}
+
+.my-card{
+    position:absolute;
+    left:40%;
+    top:-40px;
+	width:60px;
+	height:60px;
+    border-radius:50%;
+}
+.my-card span{
+   text-align:center;
+   font-size:30px;
+}
+.benfits-icons-section h4{
+	font-size:12px;
 }
