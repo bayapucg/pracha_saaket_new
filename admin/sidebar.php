@@ -165,6 +165,17 @@
                     <li><a href="contactus_list.php"><i class="fa fa-circle-o"></i>ContactUs List</a></li>
                 </ul>
             </li>
+			<li class="treeview">
+                <a href="#">
+                    <i class="fa fa-bars" aria-hidden="true"></i> <span>Time Table</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu" style="display: none;">
+                    <li><a href="timetable.php"><i class="fa fa-circle-o"></i>TimeTable</a></li>
+                </ul>
+            </li>
         </ul>
         <!-- /.sidebar-menu -->
     </section>

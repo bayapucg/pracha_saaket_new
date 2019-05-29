@@ -19,8 +19,13 @@
     <!-- Theme style -->
     <link rel="stylesheet" href="css/AdminLTE.min.css">
     <link rel="stylesheet" href="css/_all-skins.min.css">
+    <link rel="stylesheet" href="css/timetable.css">
+    <link rel="stylesheet" href="css/multtiselect.css">
+<link rel="stylesheet" href="css/buttons.dataTables.min.css">
     <!-- Google Font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+	<script src="http://cdn.rawgit.com/davidstutz/bootstrap-multiselect/master/dist/js/bootstrap-multiselect.js"
+        type="text/javascript"></script>
 </head>
     
 <body class="hold-transition skin-blue sidebar-mini">
